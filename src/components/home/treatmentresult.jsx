@@ -1,0 +1,214 @@
+"use client";
+
+import { useState } from "react";
+import Image from "next/image";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay, Navigation } from "swiper/modules";
+import { FaTimes, FaDownload, FaShareAlt } from "react-icons/fa";
+
+import "swiper/css";
+import "swiper/css/navigation";
+
+export default function TreatmentResult() {
+  const [selectedImage, setSelectedImage] = useState(null);
+
+  const images = [
+    "https://lightslategray-lemur-726893.hostingersite.com/treatmentimages/smile2.jpg",
+    "https://lightslategray-lemur-726893.hostingersite.com/treatmentimages/smile1.jpg",
+    "https://lightslategray-lemur-726893.hostingersite.com/treatmentimages/smile15.jpg",
+    "https://lightslategray-lemur-726893.hostingersite.com/treatmentimages/smile14.jpg",
+    "https://lightslategray-lemur-726893.hostingersite.com/treatmentimages/smile13.jpg",
+    "https://lightslategray-lemur-726893.hostingersite.com/treatmentimages/smile12.jpg",
+    "https://lightslategray-lemur-726893.hostingersite.com/treatmentimages/smile11.jpg",
+    "https://lightslategray-lemur-726893.hostingersite.com/treatmentimages/smile10.jpg",
+    "https://lightslategray-lemur-726893.hostingersite.com/treatmentimages/smile9.jpg",
+    "https://lightslategray-lemur-726893.hostingersite.com/treatmentimages/smile8.jpg",
+    "https://lightslategray-lemur-726893.hostingersite.com/treatmentimages/smile7.jpg",
+    "https://lightslategray-lemur-726893.hostingersite.com/treatmentimages/smile6.jpg",
+    "https://lightslategray-lemur-726893.hostingersite.com/treatmentimages/smile5.jpg",
+    "https://lightslategray-lemur-726893.hostingersite.com/treatmentimages/smile4.jpg",
+    "https://lightslategray-lemur-726893.hostingersite.com/treatmentimages/smile3.jpg",
+  ];
+
+  const handleShare = async (image) => {
+    if (navigator.share) {
+      try {
+        await navigator.share({
+          title: "Gallery",
+          text: "Check this image",
+          url: image,
+        });
+      } catch (err) {
+        console.log(err);
+      }
+    } else {
+      navigator.clipboard.writeText(image);
+      alert("Image link copied to clipboard");
+    }
+  };
+
+  return (
+    <>
+      <section
+        className="relative py-20 bg-fixed bg-center bg-cover"
+        style={{
+          backgroundImage:
+            "url('https://lightslategray-lemur-726893.hostingersite.com/treatmentimages/bg.jpg')",
+        }}
+      >
+        {/* Overlay */}
+        <div className="absolute inset-0 bg-black/40"></div>
+
+        <div className="relative z-10 w-[95%] mx-auto">
+
+          {/* Heading */}
+          <h2 className="text-center text-white text-4xl md:text-5xl font-bold mb-14">
+            Treatment and Results
+          </h2>
+
+          <Swiper
+            className="gallery-swiper"
+            modules={[Autoplay, Navigation]}
+            navigation={true}
+            loop={true}
+            spaceBetween={20}
+            autoplay={{
+              delay: 2500,
+              disableOnInteraction: false,
+            }}
+            breakpoints={{
+              0: {
+                slidesPerView: 1,
+              },
+              768: {
+                slidesPerView: 2,
+              },
+              1025: {
+                slidesPerView: 4,
+              },
+            }}
+          >
+            {images.map((image, index) => (
+              <SwiperSlide key={index}>
+                <div
+                  onClick={() => setSelectedImage(image)}
+                  className="
+                    relative
+                    h-[400px]
+                    xl:h-[550px]
+                    overflow-hidden
+                    rounded-lg
+                    cursor-pointer
+                    transition-all
+                    duration-300
+                    hover:scale-105
+                  "
+                >
+                  <Image
+                    src={image}
+                    alt={`Gallery ${index + 1}`}
+                    fill
+                    className="object-contain"
+                  />
+                </div>
+              </SwiperSlide>
+            ))}
+          </Swiper>
+
+        </div>
+      </section>
+
+      {/* Full Screen Popup */}
+      {selectedImage && (
+        <div
+          className="
+            fixed
+            inset-0
+            bg-black/90
+            z-[9999]
+            flex
+            items-center
+            justify-center
+          "
+          onClick={() => setSelectedImage(null)}
+        >
+          {/* Top Right Buttons */}
+          <div className="fixed top-6 right-6 flex gap-3 z-[10000]">
+
+            <button
+              onClick={(e) => {
+                e.stopPropagation();
+                handleShare(selectedImage);
+              }}
+              className="
+                bg-[#00A1D4]
+                text-white
+                p-3
+                rounded-full
+                hover:scale-110
+                transition-all
+              "
+            >
+              <FaShareAlt size={18} />
+            </button>
+
+            <a
+              href={selectedImage}
+              download
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={(e) => e.stopPropagation()}
+              className="
+                bg-[#00A1D4]
+                text-white
+                p-3
+                rounded-full
+                hover:scale-110
+                transition-all
+              "
+            >
+              <FaDownload size={18} />
+            </a>
+
+            <button
+              onClick={(e) => {
+                e.stopPropagation();
+                setSelectedImage(null);
+              }}
+              className="
+                bg-red-500
+                text-white
+                p-3
+                rounded-full
+                hover:scale-110
+                transition-all
+              "
+            >
+              <FaTimes size={18} />
+            </button>
+
+          </div>
+
+          {/* Enlarged Image */}
+          <div
+            className="
+              relative
+              w-full
+              max-w-7xl
+              h-[85vh]
+            "
+            onClick={(e) => e.stopPropagation()}
+          >
+            <Image
+              src={selectedImage}
+              alt="Gallery Image"
+              fill
+              priority
+              className="object-contain"
+            />
+          </div>
+        </div>
+      )}
+    </>
+  );
+}
