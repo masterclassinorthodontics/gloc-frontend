@@ -49,7 +49,7 @@ export default function TestimonialSection() {
           <div className="flex items-center justify-center gap-4 mt-5">
             <span className="w-16 h-[2px] bg-white"></span>
 
-            <span className="w-4 h-4 rounded-full border-2 border-white"></span>
+            <span className="w-2 h-2 rounded-full border-3 border-white"></span>
 
             <span className="w-16 h-[2px] bg-white"></span>
           </div>

@@ -6,6 +6,7 @@ import Achieveawards from "@/components/home/Achieveawards";
 import DentalSpecialistSection from "@/components/home/Dentalspecialist";
 import YtVideoSection from "@/components/home/ytvideosection";
 import TestimonialSection from "@/components/home/testimonialsection";
+import GoogleMapSection from "@/components/home/Googlemapsection";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <TreatmentResult/>
       <YtVideoSection/>
       <TestimonialSection/>
+      <GoogleMapSection/>
     </div>
   );
 }

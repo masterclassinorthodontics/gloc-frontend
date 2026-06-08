@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function DentalSpecialistSection() {
   return (
-    <section className="py-20 px-4 md:px-8 xl:px-12 bg-white text-center">
+    <section className="py-20 px-4 w-[99vw] md:px-8 xl:px-12 bg-white text-center">
       
       {/* Heading */}
       <div className="text-center mb-14">
