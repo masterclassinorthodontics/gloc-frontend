@@ -9,7 +9,9 @@ import { FaTimes, FaDownload, FaShareAlt } from "react-icons/fa";
 import "swiper/css";
 import "swiper/css/navigation";
 
-export default function TreatmentResult() {
+export default function TreatmentResult({
+  removeBackground = false,
+}) {
   const [selectedImage, setSelectedImage] = useState(null);
 
   const images = [
@@ -50,14 +52,24 @@ export default function TreatmentResult() {
   return (
     <>
       <section
-        className="relative py-20 bg-fixed bg-center bg-cover"
-        style={{
+  className={`relative py-20 ${
+    !removeBackground
+      ? "bg-fixed bg-center bg-cover"
+      : ""
+  }`}
+  style={
+    !removeBackground
+      ? {
           backgroundImage:
             "url('https://lightslategray-lemur-726893.hostingersite.com/treatmentimages/bg.jpg')",
-        }}
-      >
+        }
+      : {}
+  }
+>
         {/* Overlay */}
-        <div className="absolute inset-0 bg-black/40"></div>
+        {!removeBackground && (
+  <div className="absolute inset-0 bg-black/40"></div>
+)}
 
         <div className="relative z-10 w-[95%] mx-auto">
 

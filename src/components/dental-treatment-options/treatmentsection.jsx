@@ -5,44 +5,44 @@ export default function TreatmentOptionsSection() {
     {
       image:
         "https://lightslategray-lemur-726893.hostingersite.com/cdn-imgs/dental-treatment-options-imgs/orthodontics.jpg",
-      title: "Root Canal Treatment",
+      title: "ORTHODONTICS",
       description:
-        "Advanced root canal procedures performed with modern equipment to save natural teeth and eliminate pain.",
+        "TREATMENT WITH BRACES & ALINGERS – Correction of Irregular teeth, forwardly placed teeth, gaps in teeth, problems in jaws and cleft lip/palate.",
     },
     {
       image:
         "https://lightslategray-lemur-726893.hostingersite.com/cdn-imgs/dental-treatment-options-imgs/Prosthodontics.jpg",
-      title: "Dental Implants",
+      title: "PROSTHODONTICS",
       description:
-        "Permanent and natural-looking replacement solutions for missing teeth with long-lasting results.",
+        "TREATMENT OF MISSING TEETH- Correction of bite and missing teeth, fixed partial denture, removable partial denture, complete dentures, crowns and implants.",
     },
     {
       image:
         "https://lightslategray-lemur-726893.hostingersite.com/cdn-imgs/dental-treatment-options-imgs/oral-surgery.jpg",
-      title: "Dental Braces",
+      title: "ORAL SURGERY",
       description:
-        "Comprehensive orthodontic treatments including metal, ceramic and self-ligating braces.",
+        "EXTRACTION OF TEETH / SURGERY – Surgical extraction of third molars and other teeth, removal of cyst, tumours, cancer surgery and surgery of the jaws.",
     },
     {
       image:
         "https://lightslategray-lemur-726893.hostingersite.com/cdn-imgs/dental-treatment-options-imgs/endodontics.jpg",
-      title: "Invisalign",
+      title: "ENDODONTICS",
       description:
-        "Clear aligner treatment designed to straighten teeth comfortably and discreetly.",
+        "TREATMENT OF DECAYED TEETH/PAIN- Root Canal Treatment, fillings, crowns, surgical endodontics.",
     },
     {
       image:
         "https://lightslategray-lemur-726893.hostingersite.com/cdn-imgs/dental-treatment-options-imgs/periodontics-implantation.jpg",
-      title: "Cosmetic Dentistry",
+      title: "PERIODONTICS / IMPLANTOLOGY",
       description:
-        "Smile designing and cosmetic dental procedures to improve the appearance of your teeth and smile.",
+        "TREATMENT OF GUMS – Scaling, root planing, flap Surgery, dental Implants.",
     },
     {
       image:
         "https://lightslategray-lemur-726893.hostingersite.com/cdn-imgs/dental-treatment-options-imgs/endodontics.jpg",
-      title: "Teeth Whitening",
+      title: "PEDODONTICS",
       description:
-        "Professional whitening treatments to achieve a brighter and more confident smile.",
+        "General dental treatment of kids, pulpectomy, pulpotomy and dental treatment of special child.",
     },
   ];
 
@@ -56,7 +56,14 @@ export default function TreatmentOptionsSection() {
             Treatment Options
           </h2>
 
-          <div className="w-24 h-1 bg-[#00A1D4] mx-auto mt-4"></div>
+          {/* Divider */}
+          <div className="flex items-center justify-center gap-4 mt-5">
+            <span className="w-16 h-[2px] bg-black"></span>
+
+            <span className="w-2 h-2 rounded-full border-3 border-black"></span>
+
+            <span className="w-16 h-[2px] bg-black"></span>
+          </div>
         </div>
 
         {/* Cards */}
@@ -71,6 +78,9 @@ export default function TreatmentOptionsSection() {
                 transition-all
                 duration-300
                 hover:-translate-y-2
+                flex
+                flex-col
+                h-full
               "
             >
               {/* Image */}
@@ -83,12 +93,12 @@ export default function TreatmentOptionsSection() {
               />
 
               {/* Content */}
-              <div className="p-6">
-                <h3 className="text-2xl font-semibold text-[#00A1D4] mb-4">
+              <div className="flex flex-col flex-1 justify-center items-center p-6 bg-[#36384F]">
+                <h3 className="text-2xl font-semibold text-white mb-4 text-center">
                   {item.title}
                 </h3>
 
-                <p className="text-[#36384F] leading-relaxed">
+                <p className="text-white leading-relaxed text-center">
                   {item.description}
                 </p>
               </div>
