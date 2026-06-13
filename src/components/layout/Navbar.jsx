@@ -129,15 +129,15 @@ useEffect(() => {
         <ul className="flex items-center font-medium text-[15px] text-[#36384F]">
 
           {[
-            { label: "Home", href: "/" },
-            { label: "About Us", href: "/about-us" },
-            { label: "Clinical Setup", href: "/clinical-setup" },
-            { label: "Treatment Options", href: "/dental-treatment-options" },
-            { label: "Dental Braces", href: "/dental-braces" },
-            { label: "Invisalign", href: "/invisalign" },
-            { label: "Cosmetic Dentistry", href: "/cosmetic-dentistry" },
-            { label: "Results", href: "/treatment-results" },
-            { label: "Contact Us", href: "/contact-us" },
+            { label: "HOME", href: "/" },
+            { label: "ABOUT US", href: "/about-us" },
+            { label: "CLINICAL SETUP", href: "/clinical-setup" },
+            { label: "TREATMENT OPTIONS", href: "/dental-treatment-options" },
+            { label: "DENTAL BRACES", href: "/dental-braces" },
+            { label: "INVISALIGN", href: "/invisalign" },
+            { label: "COSMETIC DENTISTRY", href: "/cosmetic-dentistry" },
+            { label: "TREATMENT RESULTS", href: "/treatment-results" },
+            { label: "CONTACT US", href: "/contact-us" },
           ].map((item) => (
             <li key={item.label}>
               <a

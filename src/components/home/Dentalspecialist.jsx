@@ -1,4 +1,6 @@
+"use client"
 import Image from "next/image";
+import { motion } from "framer-motion";
 
 export default function DentalSpecialistSection() {
   return (
@@ -14,7 +16,15 @@ export default function DentalSpecialistSection() {
       </div>
 
       {/* Cards */}
-      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
+      <motion.div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 bg-red-900"
+      initial={{ y: 180 }}
+        whileInView={{ y: 0 }}
+        viewport={{ once: true, amount: 0.2 }}
+        transition={{
+        duration: 0.6,
+        ease: "easeIn",
+        }}
+      >
 
         {/* Card 1 */}
         <div className="specialist-card relative bg-[#36384F] overflow-visible shadow-lg py-12">
@@ -244,7 +254,7 @@ export default function DentalSpecialistSection() {
           </div>
         </div>
 
-      </div>
+      </motion.div>
 
     </section>
   );

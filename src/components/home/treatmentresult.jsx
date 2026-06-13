@@ -74,9 +74,18 @@ export default function TreatmentResult({
         <div className="relative z-10 w-[95%] mx-auto">
 
           {/* Heading */}
-          <h2 className="text-center text-white text-4xl md:text-5xl font-bold mb-14">
+          <h2 className="text-center text-white text-4xl md:text-5xl font-bold mb-6">
             Treatment and Results
           </h2>
+
+          {/* Divider */}
+          <div className="flex items-center justify-center gap-4 mt-5">
+            <span className="w-16 h-[2px] bg-white"></span>
+
+            <span className="w-2 h-2 rounded-full border-3 border-white"></span>
+
+            <span className="w-16 h-[2px] bg-white"></span>
+          </div>  
 
           <Swiper
             className="gallery-swiper"
