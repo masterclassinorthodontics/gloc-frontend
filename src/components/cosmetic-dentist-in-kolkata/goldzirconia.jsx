@@ -2,19 +2,19 @@ import Image from "next/image";
 
 export default function CastGoldToZirconiaSection() {
   return (
-    <section className="py-20 bg-white">
-      <div className="w-[70vw] mx-auto">
+    <section className="py-10 bg-white">
+      <div className="w-[60vw] mx-auto">
 
         {/* Top Two Columns */}
         <div className="grid grid-cols-1 lg:grid-cols-[65%_35%] gap-16 items-center">
 
           {/* Left Column */}
           <div>
-            <h3 className="text-2xl md:text-3xl font-semibold text-[#00A1D4] mb-6">
+            <h3 className="text-2xl md:text-3xl font-bold text-[#36384F] mb-6">
               Cast Gold to Zirconia
             </h3>
 
-            <div className="text-[#36384F] text-lg leading-relaxed text-justify">
+            <div className="text-[#36384F] text-[15px] leading-relaxed text-justify">
               <p>
                 In the past, porcelain used in crowns and bridges was brittle
                 due to its high concentration of glass particles. To increase
@@ -47,14 +47,14 @@ export default function CastGoldToZirconiaSection() {
               alt="Cast Gold to Zirconia"
               width={600}
               height={600}
-              className="w-full max-w-[400px] h-auto object-contain"
+              className="w-full max-w-[400px] h-auto object-contain rounded-3xl"
             />
           </div>
 
         </div>
 
         {/* Bottom Single Column */}
-        <div className="mt-12 text-[#36384F] text-lg leading-relaxed text-justify">
+        <div className="mt-12 text-[#36384F] text-[15px] leading-relaxed text-justify">
           <p>
             Cosmetic dentistry usually follows along the lines of symmetry
             and harmony. Certainly brightening teeth is something most people

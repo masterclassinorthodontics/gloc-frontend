@@ -14,7 +14,7 @@ export default function ContactCTASection() {
 
           {/* Button */}
           <a
-            href="tel:+919330153855"
+            href="/contact-us/"
             className="
              glowing-btn
               inline-flex

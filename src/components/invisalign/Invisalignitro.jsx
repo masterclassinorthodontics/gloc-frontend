@@ -1,18 +1,18 @@
 export default function InvisalignIteroSection() {
   return (
-    <section className="py-20 bg-white">
+    <section className="py-10 bg-white">
       <div className="w-[70vw] mx-auto">
 
-        <div className="grid grid-cols-1 lg:grid-cols-[60%_40%] gap-12 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-[60%_40%] gap-12 items-start">
 
           {/* Left Column */}
           <div>
 
-            <h2 className="text-2xl md:text-3xl font-semibold text-[#00A1D4] mb-6">
+            <h2 className="text-2xl md:text-2xl font-semibold text-[#36384F] mb-6">
               Itero 3D Planning Tool
             </h2>
 
-            <p className="text-[#36384F] text-lg leading-relaxed text-justify">
+            <p className="text-[#36384F] text-[15px] leading-relaxed text-justify">
               We plan your Invisalign treatment and cosmetic smile
               designing cases using the most advanced and latest
               Itero 3D Planning scanner.

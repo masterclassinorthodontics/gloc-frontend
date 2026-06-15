@@ -10,7 +10,7 @@ export default function DentalVeneerSection() {
   ];
 
   return (
-    <section className="py-20 bg-white">
+    <section className="py-10 bg-white">
       <div className="w-[70vw] mx-auto">
 
         {/* Two Columns */}
@@ -19,11 +19,11 @@ export default function DentalVeneerSection() {
           {/* Left Column */}
           <div>
 
-            <h3 className="text-2xl md:text-3xl font-semibold text-[#00A1D4] mb-6">
+            <h3 className="text-2xl md:text-2xl font-bold text-[#36384F] mb-6">
               Dental Veneer
             </h3>
 
-            <div className="text-[#36384F] text-lg leading-relaxed text-justify">
+            <div className="text-[#36384F] text-[15px] leading-relaxed text-justify">
 
               <p>
                 Dental veneers often referred to as dental porcelain
@@ -41,7 +41,7 @@ export default function DentalVeneerSection() {
                 of dental problems like:
               </p>
 
-              <ul className="space-y-3">
+              <ul className="space-y-1">
                 {veneerPoints.map((point, index) => (
                   <li
                     key={index}
@@ -76,7 +76,7 @@ export default function DentalVeneerSection() {
 
         {/* Bottom Content */}
         <div className="mt-12">
-          <p className="text-[#36384F] text-lg leading-relaxed text-justify">
+          <p className="text-[#36384F] text-[15px] leading-relaxed text-justify">
             The cosmetic dentist will reshape the surface of the tooth
             to a thickness that is approximately equal to the thickness
             of the <strong>dental veneer</strong> to be applied.

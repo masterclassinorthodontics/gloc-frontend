@@ -25,12 +25,12 @@ export default function AboutDoctorSection() {
       <div className="w-[70vw] mx-auto">
 
         {/* Heading */}
-        <h2 className="text-2xl md:text-3xl font-semibold text-[#00A1D4] mb-6">
+        <h2 className="text-2xl md:text-2xl font-semibold text-[#36384F] mb-6">
           About The Doctor
         </h2>
 
         {/* Intro Text */}
-        <p className="text-[#36384F] text-lg leading-relaxed text-justify mb-10">
+        <p className="text-[#36384F] text-[15px] leading-relaxed text-justify mb-10">
           <a
             href="https://greatlakesdentalclinics.com/"
             target="_blank"
@@ -50,11 +50,11 @@ export default function AboutDoctorSection() {
 
           {/* Left Column */}
           <div>
-            <ul className="space-y-4">
+            <ul className="space-y-1">
               {leftPoints.map((point, index) => (
                 <li
                   key={index}
-                  className="flex items-start gap-3 text-[#36384F] text-lg"
+                  className="flex items-start gap-3 text-[#36384F] text-[15px]"
                 >
                   <BiSolidRightArrow
                     className="text-[#00A1D4] mt-1 flex-shrink-0"
@@ -68,11 +68,11 @@ export default function AboutDoctorSection() {
 
           {/* Right Column */}
           <div>
-            <ul className="space-y-4">
+            <ul className="space-y-1">
               {rightPoints.map((point, index) => (
                 <li
                   key={index}
-                  className="flex items-start gap-3 text-[#36384F] text-lg"
+                  className="flex items-start gap-3 text-[#36384F] text-[15px]"
                 >
                   <BiSolidRightArrow
                     className="text-[#00A1D4] mt-1 flex-shrink-0"
@@ -87,7 +87,7 @@ export default function AboutDoctorSection() {
         </div>
 
         {/* Bottom Text */}
-        <p className="text-[#36384F] text-lg leading-relaxed text-justify">
+        <p className="text-[#36384F] text-[15px] leading-relaxed text-justify">
           Apart from his career journey, the experience of his patients
           has been equally pleasurable – which is easily visible in the
           patient feedback section – when you type – best{" "}

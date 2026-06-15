@@ -52,13 +52,13 @@ export default function BannerSection() {
         <div className="w-full xl:w-[60%] bg-[#36384F] min-h-[400px] md:min-h-[500px] xl:min-h-[1000px]">
           {/* Right content goes here */}
 
-          <div className="flex flex-col justify-start h-full px-6 md:px-10 xl:px-16 py-10 text-white">
+          <div className="flex flex-col justify-start h-full px-6 md:px-10 xl:px-8 py-6 text-white">
 
   {/* Heading */}
   <h1 className="text-3xl md:text-4xl xl:text-5xl font-semibold">
     Dr Abhisek Ghosh
   </h1>
-  <div className="w-[150px] h-[3px] bg-[#00A1D4] my-4"></div>
+  <div className="w-[150px] h-[3px] bg-white my-4"></div>
 
   {/* Sub Heading */}
   <div className="space-y-1 mb-12">
@@ -156,7 +156,8 @@ export default function BannerSection() {
   <div className="lg:w-[260px] flex flex-col justify-end items-end gap-5">
 
     <a
-      href="/contact-us"
+      href="https://www.youtube.com/channel/UC2_6CgGX0r8cUZPiyICThsw"
+      target="blank"
       className="
         glowing-btn
         w-4/5
@@ -172,7 +173,8 @@ export default function BannerSection() {
     </a>
 
     <a
-      href="tel:+919830000002"
+      href="https://www.google.com/search?q=great+lakes+dental&rlz=1C1CHBF_enIN956IN956&oq=great+lakes+dental&aqs=chrome.0.69i59l2j69i60l3.3072j0j4&sourceid=chrome&ie=UTF-8#lrd=0x3a0270cb5c1b07c5:0x4788b0b3baf2059e,1,,,"
+      target="blank"
       className="
         glowing-btn
         w-full

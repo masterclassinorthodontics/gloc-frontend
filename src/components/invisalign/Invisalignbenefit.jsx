@@ -2,20 +2,32 @@ import { BiSolidRightArrow } from "react-icons/bi";
 
 export default function InvisalignBenefitsSection() {
   const points = [
-    "Virtually invisible and aesthetically pleasing.",
-    "Comfortable to wear with no metal brackets or wires.",
-    "Removable while eating, brushing, and flossing.",
-    "Customized treatment planning using advanced digital technology.",
-    "Fewer clinic visits compared to conventional braces.",
-    "Predictable and highly effective treatment outcomes.",
+    <>
+    It helps you straighten the teeth with lesser pain and higher comfort.
+    </>,
+    <>
+    These <strong>invisible removable braces</strong> allow you to get the remedy without compromising with your social life and smile.
+    </>,
+    <>
+    It has no dietary restrictions like – <strong>conventional dental braces.</strong>
+    </>,
+    <>
+    It gives you the result faster than regular braces.
+    </>,
+    <>
+    Invisalign is made up of SmartTrack material, making it easier to put on and off.
+    </>,
+    <>
+    Moreover, you can avail yourself of all these benefits at the most affordable rates among all <strong>Invisalign cost in Kolkata.</strong>
+    </>,
   ];
 
   return (
-    <section className="py-20 bg-white">
+    <section className="py-2 bg-white">
       <div className="w-[70vw] mx-auto">
 
         {/* Main Sub Heading */}
-        <h2 className="text-2xl md:text-3xl font-semibold text-[#00A1D4] mb-6">
+        <h2 className="text-2xl md:text-2xl font-semibold text-[#36384F] mb-6">
           Invisalign is the best orthodontic treatment of choice for adults
         </h2>
 
@@ -25,7 +37,7 @@ export default function InvisalignBenefitsSection() {
           {/* Left Column */}
           <div>
 
-            <h3 className="text-xl md:text-2xl font-semibold text-[#36384F] mb-2">
+            <h3 className="text-xl md:text-[14px] font-semibold text-[#36384F] mb-2">
               Here is why we propose Invisalign
             </h3>
 
@@ -33,7 +45,7 @@ export default function InvisalignBenefitsSection() {
               {points.map((point, index) => (
                 <li
                   key={index}
-                  className="flex items-start gap-3 text-[#36384F] text-lg"
+                  className="flex items-start gap-3 text-[#36384F] text-[15px]"
                 >
                   <BiSolidRightArrow
                     className="text-[#00A1D4] mt-1 flex-shrink-0"
@@ -44,7 +56,7 @@ export default function InvisalignBenefitsSection() {
               ))}
             </ul>
 
-            <p className="text-[#36384F] text-lg leading-relaxed">
+            <p className="text-[#36384F] text-[14px] leading-relaxed">
               Next time you plan to get a perfect smile to flaunt,
               contact us for the{" "}
               <strong>Invisalign treatment in Kolkata</strong>.

@@ -12,11 +12,11 @@ export default function WhyChooseUsBracesSection() {
   ];
 
   return (
-    <section className="py-20 bg-white">
+    <section className="py-10 bg-white">
       <div className="w-[70vw] mx-auto">
 
         {/* Sub Heading */}
-        <h3 className="text-2xl md:text-3xl font-semibold text-[#00A1D4] mb-8">
+        <h3 className="text-2xl md:text-2xl font-bold text-[#36384F] mb-8">
           What makes us a clear choice for the best orthodontic treatment in Kolkata?
         </h3>
 
@@ -31,7 +31,7 @@ export default function WhyChooseUsBracesSection() {
               {points.map((point, index) => (
                 <li
                   key={index}
-                  className="flex items-start gap-3 text-[#36384F] text-lg"
+                  className="flex items-start gap-3 text-[#36384F] text-[15px]"
                 >
                   <BiSolidRightArrow className="text-[#00A1D4] text-xl mt-1 shrink-0" />
                   <span>{point}</span>
@@ -40,7 +40,7 @@ export default function WhyChooseUsBracesSection() {
             </ul>
 
             {/* Content */}
-            <div className="text-[#36384F] text-lg leading-relaxed text-justify">
+            <div className="text-[#36384F] text-[15px] leading-relaxed text-justify">
               <p>
                 Gift yourself a perfect smile, with us! Instead of just
                 Google-ing <strong>"best orthodontist in Kolkata"</strong> /
@@ -75,12 +75,12 @@ export default function WhyChooseUsBracesSection() {
         </div>
 
         {/* Second Sub Heading */}
-        <div className="mt-20">
-          <h3 className="text-2xl md:text-3xl font-semibold text-[#00A1D4] mb-8">
+        <div className="mt-10">
+          <h3 className="text-2xl md:text-2xl font-bold text-[#36384F] mb-8">
             Why Great Lakes Dental Clinic and Orthodontic Care?
           </h3>
 
-          <div className="text-[#36384F] text-lg leading-relaxed text-justify">
+          <div className="text-[#36384F] text-[15px] leading-relaxed text-justify">
             <p>
               Great Lakes Multispeciality Dental Clinic and Orthodontic Care has
               the unique distinction of being the only dental clinic in Eastern

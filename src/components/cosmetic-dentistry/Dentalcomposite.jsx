@@ -18,11 +18,11 @@ export default function DentalCompositeFillingSection() {
           {/* Left Column */}
           <div>
 
-            <h3 className="text-2xl md:text-3xl font-semibold text-[#00A1D4] mb-6">
+            <h3 className="text-2xl md:text-3xl font-bold text-[#36384F] mb-6">
               Dental Composite Filling
             </h3>
 
-            <div className="text-[#36384F] text-lg leading-relaxed text-justify">
+            <div className="text-[#36384F] text-[15px] leading-relaxed text-justify">
 
               <p>
                 A <strong>dental composite filling</strong> is done to
@@ -51,7 +51,7 @@ export default function DentalCompositeFillingSection() {
                 A composite filling is used to repair:
               </p>
 
-              <ul className="space-y-3 mb-6">
+              <ul className="space-y-1 mb-6">
                 {fillingPoints.map((point, index) => (
                   <li
                     key={index}
@@ -107,8 +107,8 @@ export default function DentalCompositeFillingSection() {
         </div>
 
         {/* Bottom Single Column Content */}
-        <div className="mt-12">
-          <p className="text-[#36384F] text-lg leading-relaxed text-justify">
+        <div className="mt-6">
+          <p className="text-[#36384F] text-[15px] leading-relaxed text-justify">
             To improve your dental appearance, we are the right place
             to contact!
 

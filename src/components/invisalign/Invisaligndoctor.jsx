@@ -1,13 +1,13 @@
 export default function InvisalignDoctorsSection() {
   return (
-    <section className="py-20 bg-white">
+    <section className="py-10 bg-white">
       <div className="w-[70vw] mx-auto">
 
-        <div className="grid grid-cols-1 lg:grid-cols-[60%_40%] gap-12 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-[60%_40%] gap-12 items-start">
 
           {/* Left Column */}
           <div>
-            <p className="text-[#36384F] text-lg leading-relaxed text-justify">
+            <p className="text-[#36384F] text-[15px] leading-relaxed text-justify">
               Undoubtedly, we have the{" "}
               <strong>best dentist in Kolkata</strong>, but stay tuned,
               do not underestimate our team.

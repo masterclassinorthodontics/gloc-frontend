@@ -11,7 +11,15 @@ export default function ContactMainCenterSection() {
             Contact Us
           </h2>
 
-          <div className="w-24 h-1 bg-[#00A1D4] mx-auto mt-4"></div>
+          {/* Divider */}
+          <div className="flex items-center justify-center gap-4 mt-5">
+            <span className="w-16 h-[2px] bg-white"></span>
+
+            <span className="w-2 h-2 rounded-full border-3 border-white"></span>
+
+            <span className="w-16 h-[2px] bg-white"></span>
+          </div>
+
         </div>
 
         {/* Two Columns */}
@@ -35,9 +43,9 @@ export default function ContactMainCenterSection() {
           </div>
 
           {/* Right Column */}
-          <div className="text-white">
+          <div className="text-left">
 
-            <h3 className="text-[#00A1D4] text-2xl md:text-3xl font-semibold mb-2">
+            <h3 className="text-[#00A1D0] text-2xl md:text-3xl font-semibold mb-2">
               Main Center
             </h3>
 
@@ -56,7 +64,7 @@ export default function ContactMainCenterSection() {
               <a
                 href="tel:9330153855"
                 target="_blank"
-                className="text-[#00A1D4] hover:underline"
+                className="hover:underline"
               >
                 9330153855
               </a>{" "}
@@ -64,7 +72,7 @@ export default function ContactMainCenterSection() {
               <a
                 href="tel:8337098496"
                 target="_blank"
-                className="text-[#00A1D4] hover:underline"
+                className="hover:underline"
               >
                 8337098496
               </a>
@@ -75,7 +83,7 @@ export default function ContactMainCenterSection() {
               <a
                 href="tel:03335675767"
                 target="_blank"
-                className="text-[#00A1D4] hover:underline"
+                className="hover:underline"
               >
                 033 35675767
               </a>
@@ -85,7 +93,7 @@ export default function ContactMainCenterSection() {
               <strong>E-mail :</strong>{" "}
               <a
                 href="mailto:dr.abhisek24@gmail.com"
-                className="text-[#00A1D4] hover:underline"
+                className="hover:underline"
               >
                 dr.abhisek24@gmail.com
               </a>

@@ -2,9 +2,9 @@ import Image from "next/image";
 
 export default function ITeroClinicalSetupSection() {
   return (
-    <section className="py-20 bg-white">
+    <section className="py-10 bg-white">
       <div className="w-[70vw] mx-auto">
-        <h3 className="text-2xl md:text-3xl font-semibold text-[#00A1D4] mb-6">
+        <h3 className="text-2xl md:text-2xl font-semibold text-[#36384F] mb-4">
                 iTero Clinical Setup
               </h3>
 
@@ -20,7 +20,7 @@ export default function ITeroClinicalSetupSection() {
                 iTero Clinical Setup
               </h3> */}
 
-              <div className="text-[#36384F] text-lg leading-relaxed text-justify">
+              <div className="text-[#36384F] text-[15px] leading-relaxed text-justify">
 
                 <p>
                   Designed to deliver reliability, speed, outstanding

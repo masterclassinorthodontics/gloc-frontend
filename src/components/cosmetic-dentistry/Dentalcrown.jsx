@@ -8,7 +8,7 @@ export default function DentalCrownSection() {
   ];
 
   return (
-    <section className="py-20 bg-white">
+    <section className="py-10 bg-white">
       <div className="w-[70vw] mx-auto">
 
         {/* Two Columns */}
@@ -17,11 +17,11 @@ export default function DentalCrownSection() {
           {/* Left Column */}
           <div>
 
-            <h3 className="text-2xl md:text-3xl font-semibold text-[#00A1D4] mb-6">
+            <h3 className="text-2xl md:text-3xl font-bold text-[#36384F] mb-6">
               Dental Crown
             </h3>
 
-            <div className="text-[#36384F] text-lg leading-relaxed text-justify">
+            <div className="text-[#36384F] text-[15px] leading-relaxed text-justify">
 
               <p>
                 A <strong>dental crown</strong> is usually a cap for a
@@ -36,7 +36,7 @@ export default function DentalCrownSection() {
                 Crowns can be used for:
               </p>
 
-              <ul className="space-y-3">
+              <ul className="space-y-1">
                 {crownPoints.map((point, index) => (
                   <li
                     key={index}
@@ -71,7 +71,7 @@ export default function DentalCrownSection() {
 
         {/* Bottom Content */}
         <div className="mt-12">
-          <p className="text-[#36384F] text-lg leading-relaxed text-justify">
+          <p className="text-[#36384F] text-[15px] leading-relaxed text-justify">
             Crowns are often recommended after a root canal since the
             tooth is more delicate and requires additional protection.
 

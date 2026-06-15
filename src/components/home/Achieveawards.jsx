@@ -70,9 +70,18 @@ export default function Achieveawards() {
         <div className="absolute inset-0 bg-black/40"></div>
 
         <div className="relative z-10 max-w-[1800px] mx-auto px-6">
-          <h2 className="text-center text-white text-4xl font-bold mb-12">
+          <h2 className="text-center text-white text-4xl font-bold mb-6">
             Achievements & Awards
           </h2>
+
+          {/* Divider */}
+          <div className="flex items-center justify-center gap-4 mt-5">
+            <span className="w-16 h-[2px] bg-white"></span>
+
+            <span className="w-2 h-2 rounded-full border-3 border-white"></span>
+
+            <span className="w-16 h-[2px] bg-white"></span>
+          </div>
 
         <div className="relative px-4">
           <Swiper

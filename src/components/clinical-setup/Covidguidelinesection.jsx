@@ -2,14 +2,14 @@ import { BiSolidRightArrow } from "react-icons/bi";
 
 export default function CovidGuidelinesSection() {
   return (
-    <section className="py-20 bg-white">
+    <section className="py-2 bg-white">
       <div className="w-[70vw] mx-auto">
 
-        <h3 className="text-2xl md:text-3xl font-semibold text-[#00A1D4] mb-6">
+        <h3 className="text-2xl md:text-2xl font-semibold text-[#36384F] mb-6">
           COVID 19 Guidelines and Safety Measures for Dental Care
         </h3>
 
-        <div className="text-[#36384F] text-lg leading-relaxed text-justify">
+        <div className="text-[#36384F] text-[15px] leading-relaxed text-justify">
 
           <p>
             Your safety is our first priority! To make our dental units fully
@@ -20,7 +20,7 @@ export default function CovidGuidelinesSection() {
 
           <br />
 
-          <div className="space-y-4">
+          <div className="space-y-2">
 
   <div className="flex items-start gap-3">
     <BiSolidRightArrow className="text-[#00A1D4] text-xl mt-1 flex-shrink-0" />

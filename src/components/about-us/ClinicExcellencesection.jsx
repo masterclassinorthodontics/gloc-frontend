@@ -1,15 +1,15 @@
 export default function ClinicExcellenceSection() {
   return (
-    <section className="py-16 xl:py-20">
-      <div className="w-[90vw] mx-auto">
+    <section className="py-16 xl:py-10">
+      <div className="w-[70vw] mx-auto">
 
         {/* Section 1 */}
-        <div className="mb-16">
-          <h2 className="text-[#00A1D4] text-3xl md:text-4xl font-bold mb-8">
+        <div className="mb-8">
+          <h2 className="text-[#36384F] text-3xl md:text-2xl font-bold mb-4">
             A Centre of Clinical Excellence for Everyone
           </h2>
 
-          <div className="text-[#36384F] text-lg md:text-xl leading-relaxed">
+          <div className="text-[#36384F] text-lg md:text-[15px] leading-relaxed text-justify">
             <p>
               This multi-specialty dental clinic is here to redefine dentistry.
               With an impressive list of qualified professionals, the latest
@@ -62,45 +62,25 @@ export default function ClinicExcellenceSection() {
 
         {/* Section 2 */}
         <div>
-          <h2 className="text-[#00A1D4] text-3xl md:text-4xl font-bold mb-8">
+          <h2 className="text-[#36384F] text-3xl md:text-2xl font-bold mb-4">
             Speciality of the Clinic
           </h2>
 
-          <div className="text-[#36384F] text-lg md:text-xl leading-relaxed text-justify">
+          <div className="text-[#36384F] text-lg md:text-[15px] leading-relaxed text-justify">
             <p>
               A compilation of one of the finest speciality doctors/professionals
               in the city dedicated to the cause of dentistry and ever so ready
               to serve you with compassion.
-            </p>
-
-            <br />
-
-            <p>
               We provide all forms of modern dental treatment available under
               one common roof. It is one of the finest orthodontic clinics in
               the city with all forms of treatment available including –
               metal braces, ceramic braces, self-ligating braces, clear
               aligner treatment, Invisalign and lingual orthodontics.
-            </p>
-
-            <br />
-
-            <p>
               Here you are offered latest and superior quality equipment and
               infrastructure. A value for money clinic where our prime focus
               is providing you quality care at a very affordable cost.
-            </p>
-
-            <br />
-
-            <p>
               We follow strict sterilization protocols followed using
               international guidelines (OSHA protocol).
-            </p>
-
-            <br />
-
-            <p>
               Our staffs are all well behaved and equally well trained,
               ready to help you out in every possible way.
             </p>

@@ -1,6 +1,6 @@
 export default function InvisalignAffordableSection() {
   return (
-    <section className="py-20 bg-white">
+    <section className="py-10 bg-white">
       <div className="w-[70vw] mx-auto">
 
         <div className="grid grid-cols-1 lg:grid-cols-[60%_40%] gap-12 items-center">
@@ -8,11 +8,11 @@ export default function InvisalignAffordableSection() {
           {/* Left Column */}
           <div>
 
-            <h2 className="text-2xl md:text-3xl font-semibold text-[#00A1D4] mb-6">
+            <h2 className="text-2xl md:text-2xl font-semibold text-[#36384F] mb-6">
               Latest Cosmetic Solutions at Affordable Cost
             </h2>
 
-            <div className="text-[#36384F] text-lg leading-relaxed text-justify">
+            <div className="text-[#36384F] text-[15px] leading-relaxed text-justify">
               <p>
                 It is not a surprise when our patients reveal that we
                 design the loveliest smiles. The claim is valid because,

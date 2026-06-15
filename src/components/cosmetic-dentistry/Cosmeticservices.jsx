@@ -1,6 +1,6 @@
 export default function CosmeticServicesSection() {
   return (
-    <section className="py-20 bg-white">
+    <section className="py-10 bg-white">
       <div className="w-[70vw] mx-auto">
 
         <div className="grid grid-cols-1 lg:grid-cols-[60%_40%] gap-12 items-center">
@@ -8,11 +8,11 @@ export default function CosmeticServicesSection() {
           {/* Left Column */}
           <div>
 
-            <h3 className="text-2xl md:text-3xl font-semibold text-[#00A1D4] mb-6">
+            <h3 className="text-2xl md:text-2xl font-bold text-[#36384F] mb-6">
               Services
             </h3>
 
-            <div className="text-[#36384F] text-lg leading-relaxed text-justify">
+            <div className="text-[#36384F] text-[15px] leading-relaxed text-justify">
               <p>
                 At Great Lakes Dental Clinic and Orthodontic Centre,
                 we offer a range of dental services that include
@@ -58,7 +58,7 @@ export default function CosmeticServicesSection() {
 
       </div>
       {/* Divider */}
-        <div className="w-full h-px bg-gray-300 mt-12"></div>
+        <div className="w-full h-px bg-gray-300 mt-6"></div>
     </section>
   );
 }

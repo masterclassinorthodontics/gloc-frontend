@@ -29,22 +29,22 @@ export default function TypesOfDentalBracesSection() {
   ];
 
   return (
-    <section className="py-20 bg-white">
+    <section className="py-10 bg-white">
       <div className="w-[70vw] mx-auto">
         
         {/* Sub Heading */}
-        <h3 className="text-2xl md:text-3xl font-semibold text-[#00A1D4] mb-8">
+        <h3 className="text-2xl md:text-2xl font-semibold text-[#36384F] mb-8">
           What are the types of dental braces?
         </h3>
 
         {/* Content */}
         <div className="text-[#36384F] text-lg leading-relaxed text-justify">
 
-          <h4 className="font-bold text-xl mb-3">
+          <h4 className="font-semibold text-xl mb-3">
             Metal Braces
           </h4>
 
-          <p className="mb-8">
+          <p className="mb-8 text-[15px]">
             The traditional ones that treat extreme overcrowding and abnormal
             alignment of teeth and jawline. The <strong>metal braces</strong>{" "}
             help align the teeth and jawline in small increments at a time.
@@ -56,11 +56,11 @@ export default function TypesOfDentalBracesSection() {
             you will get.
           </p>
 
-          <h4 className="font-bold text-xl mb-3">
+          <h4 className="font-semibold text-xl mb-3">
             Clear Ceramic Braces
           </h4>
 
-          <p className="mb-8">
+          <p className="mb-8 text-[15px]">
             <strong>Invisible braces</strong> /{" "}
             <strong>Ceramic braces</strong> /{" "}
             <strong>Clear braces</strong> and metal braces are almost the same;
@@ -72,11 +72,11 @@ export default function TypesOfDentalBracesSection() {
             metal braces and provide similar treatment results.
           </p>
 
-          <h4 className="font-bold text-xl mb-3">
+          <h4 className="font-semibold text-xl mb-3">
             Invisalign
           </h4>
 
-          <p className="mb-14">
+          <p className="mb-14 text-[15px]">
             To achieve a prettier smile, <strong>Invisalign</strong> treatment
             can be done. Invisalign treatment is a go-to choice for those with
             mild to severe malocclusions.
@@ -97,7 +97,7 @@ export default function TypesOfDentalBracesSection() {
         </div>
 
         {/* Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
   {bracesTypes.map((item, index) => (
     <div
       key={index}

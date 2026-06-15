@@ -1,14 +1,14 @@
 export default function TeethWhiteningAndDentalImplantsSection() {
   return (
-    <section className="py-20 bg-white">
-      <div className="w-[70vw] mx-auto">
+    <section className="py-10 bg-white">
+      <div className="w-[60vw] mx-auto">
 
         {/* Teeth Whitening */}
-        <h3 className="text-2xl md:text-3xl font-semibold text-[#00A1D4] mb-6">
+        <h3 className="text-2xl md:text-3xl font-bold text-[#36384F] mb-6">
           Teeth Whitening
         </h3>
 
-        <div className="text-[#36384F] text-lg leading-relaxed text-justify mb-12">
+        <div className="text-[#36384F] text-[15px] leading-relaxed text-justify mb-12">
           <p>
             Teeth whitening remains one of the best known and simplest forms
             of cosmetic dentistry. Frequently, dentists recommend teeth
@@ -28,11 +28,11 @@ export default function TeethWhiteningAndDentalImplantsSection() {
         </div>
 
         {/* Dental Implants */}
-        <h3 className="text-2xl md:text-3xl font-semibold text-[#00A1D4] mb-6">
+        <h3 className="text-2xl md:text-3xl font-bold text-[#36384F] mb-6">
           Dental Implants
         </h3>
 
-        <div className="text-[#36384F] text-lg leading-relaxed text-justify">
+        <div className="text-[#36384F] text-[15px] leading-relaxed text-justify">
           <p>
             Dental implants replace teeth that are lost as a result of an
             accident, extraction, or other dental issues. A small titanium

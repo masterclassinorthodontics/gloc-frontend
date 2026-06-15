@@ -56,7 +56,7 @@ export default function FooterSection() {
 
               <li>
                 <Link
-                  href="#"
+                  href="/cosmetic-dentistry/"
                   className="hover:text-[#00A1D4] transition"
                 >
                   Cosmetic Dentistry
@@ -74,7 +74,7 @@ export default function FooterSection() {
 
               <li>
                 <Link
-                  href="#"
+                  href="/invisalign/"
                   className="hover:text-[#00A1D4] transition"
                 >
                   Invisalign

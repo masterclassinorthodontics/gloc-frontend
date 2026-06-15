@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export default function DentalSpecialistSection() {
   return (
-    <section className="py-20 px-4 w-[99vw] md:px-8 xl:px-12 bg-white text-center">
+    <section className="py-10 px-4 w-[99vw] md:px-8 xl:px-12 bg-white text-center">
       
       {/* Heading */}
       <div className="text-center mb-14">
@@ -12,16 +12,24 @@ export default function DentalSpecialistSection() {
           Team of Dental Specialists
         </h2>
 
-        <div className="w-24 h-1 bg-[#00A1D4] mx-auto mt-4"></div>
+        {/* Divider */}
+          <div className="flex items-center justify-center gap-4 mt-5">
+            <span className="w-16 h-[2px] bg-[#00A1D4]"></span>
+
+            <span className="w-2 h-2 rounded-full border-3 border-[#00A1D4]"></span>
+
+            <span className="w-16 h-[2px] bg-[#00A1D4]"></span>
+          </div>
+
       </div>
 
       {/* Cards */}
-      <motion.div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 bg-red-900"
-      initial={{ y: 180 }}
+      <motion.div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8"
+      initial={{ y: 280 }}
         whileInView={{ y: 0 }}
         viewport={{ once: true, amount: 0.2 }}
         transition={{
-        duration: 0.6,
+        duration: 0.8,
         ease: "easeIn",
         }}
       >

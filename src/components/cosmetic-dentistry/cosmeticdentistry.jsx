@@ -9,7 +9,14 @@ export default function CosmeticDentistrySection() {
             Cosmetic Dentistry
           </h2>
 
-          <div className="w-24 h-1 bg-[#00A1D4] mx-auto mt-4"></div>
+          {/* Divider */}
+          <div className="flex items-center justify-center gap-4 mt-5">
+            <span className="w-16 h-[2px] bg-[#36384F]"></span>
+
+            <span className="w-2 h-2 rounded-full border-3 border-[#36384F]"></span>
+
+            <span className="w-16 h-[2px] bg-[#36384F]"></span>
+          </div>
         </div>
 
         {/* Two Columns */}
@@ -18,11 +25,11 @@ export default function CosmeticDentistrySection() {
           {/* Left Column */}
           <div>
 
-            <h3 className="text-2xl md:text-3xl font-semibold text-[#00A1D4] mb-6">
+            <h3 className="text-2xl md:text-2xl font-semibold text-[#36384F] mb-6">
               Cosmetic Dentistry
             </h3>
 
-            <div className="text-[#36384F] text-lg leading-relaxed text-justify">
+            <div className="text-[#36384F] text-[15px] leading-relaxed text-justify">
               <p>
                 Those celebrities with a killer smile – they aren’t
                 always born with that. There is a fair chance that all
@@ -71,7 +78,7 @@ export default function CosmeticDentistrySection() {
 
         {/* Bottom Content */}
         <div>
-          <p className="text-[#36384F] text-lg leading-relaxed text-justify">
+          <p className="text-[#36384F] text-[15px] leading-relaxed text-justify">
             Cosmetic dental procedures are safe, quick, and relatively
             affordable.
 
@@ -84,7 +91,7 @@ export default function CosmeticDentistrySection() {
 
       </div>
       {/* Divider */}
-      <div className="w-full h-px bg-gray-300 mt-12"></div>
+      <div className="w-full h-px bg-gray-300 mt-6"></div>
     </section>
   );
 }

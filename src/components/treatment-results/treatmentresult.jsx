@@ -21,7 +21,7 @@ export default function TreatmentResultsSection() {
   ];
 
   return (
-    <section className="py-20 bg-[#36384F]">
+    <section className="py-10 bg-[#36384F]">
       <div className="w-[90vw] mx-auto">
 
         {/* Heading */}
@@ -30,12 +30,19 @@ export default function TreatmentResultsSection() {
             Treatment Results
           </h2>
 
-          <div className="w-24 h-1 bg-[#00A1D4] mx-auto mt-4"></div>
+          {/* Divider */}
+          <div className="flex items-center justify-center gap-4 mt-5">
+            <span className="w-16 h-[2px] bg-white"></span>
+
+            <span className="w-2 h-2 rounded-full border-3 border-white"></span>
+
+            <span className="w-16 h-[2px] bg-white"></span>
+          </div>
         </div>
 
         {/* Description */}
-        <div className="max-w-5xl mx-auto mb-14">
-          <p className="text-white text-lg leading-relaxed text-center">
+        <div className="max-w-8xl mx-auto mb-14">
+          <p className="text-white text-[15px] leading-relaxed text-center">
             We know the difference orthodontic treatment can make and we
             like to show this to our future patients, giving them
             confidence in our knowledge and expertise. These before and

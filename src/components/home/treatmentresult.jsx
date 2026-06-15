@@ -5,9 +5,11 @@ import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Navigation } from "swiper/modules";
 import { FaTimes, FaDownload, FaShareAlt } from "react-icons/fa";
+import { motion } from "framer-motion";
 
 import "swiper/css";
 import "swiper/css/navigation";
+import { easeIn } from "framer-motion";
 
 export default function TreatmentResult({
   removeBackground = false,
@@ -71,7 +73,15 @@ export default function TreatmentResult({
   <div className="absolute inset-0 bg-black/40"></div>
 )}
 
-        <div className="relative z-10 w-[95%] mx-auto">
+        <motion.div className="relative z-10 w-[95%] mx-auto"
+        initial={{y:240}}
+        whileInView={{y:0}}
+        viewport={{once:true, amount:0.2}}
+        transition={{
+          duration:0.8,
+          easeIn
+        }}
+        >
 
           {/* Heading */}
           <h2 className="text-center text-white text-4xl md:text-5xl font-bold mb-6">
@@ -136,7 +146,7 @@ export default function TreatmentResult({
             ))}
           </Swiper>
 
-        </div>
+        </motion.div>
       </section>
 
       {/* Full Screen Popup */}

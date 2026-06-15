@@ -1,3 +1,6 @@
+"use client"
+import { motion } from "framer-motion";
+
 export default function YtVideoSection() {
   const videos = [
     "https://www.youtube.com/embed/15vzN2YvYcE?si=Zr9JbfpebTQ7j6NG",
@@ -9,6 +12,15 @@ export default function YtVideoSection() {
   return (
     <section className="bg-[#36384F] py-20 px-4 md:px-8 xl:px-12">
       
+      <motion.div
+      initial={{y:300}}
+      whileInView={{y:0}}
+      viewport={{once:true, amount:0.2}}
+      transition={{
+        duration:0.8,
+        ease:"easeIn"
+      }}
+      >
       {/* Heading */}
       <div className="text-center mb-14">
         <h2 className="text-4xl md:text-5xl font-bold text-white">
@@ -54,8 +66,7 @@ export default function YtVideoSection() {
       {/* Button */}
       <div className="text-center mt-14">
         <a
-          href="https://www.youtube.com"
-          target="_blank"
+          href="/dental-braces-treatment-video/"
           rel="noopener noreferrer"
           className="
             glowing-btn
@@ -76,6 +87,7 @@ export default function YtVideoSection() {
           VIEW MORE VIDEOS
         </a>
       </div>
+      </motion.div>
 
     </section>
   );

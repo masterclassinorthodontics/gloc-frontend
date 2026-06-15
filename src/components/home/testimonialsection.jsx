@@ -2,6 +2,7 @@
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
+import { motion } from "framer-motion";
 
 import "swiper/css";
 import "swiper/css/navigation";
@@ -10,26 +11,30 @@ import "swiper/css/pagination";
 export default function TestimonialSection() {
   const testimonials = [
     {
+      text: "The dentists and staff of Orthodontics are very warm, friendly yet extremely professional. I am no more afraid of going to the dentist. I, first, went to Orthodontics with advanced Periodontitis. The care, with which they treated me, really impressed me.",
+      name: "MUKESH AGGARAWAL",
+    },
+    {
+      text: "The dentists and staff of Orthodontics are very warm, friendly yet extremely professional. I am no more afraid of going to the dentist. I, first, went to Orthodontics with advanced Periodontitis. The care, with which they treated me, really impressed me.",
+      name: "TRINA",
+    },
+    {
+      text: "The entire staff of Orthodontics is very friendly yet extremely professional. The doctors are highly qualified and expert. We are beyond satisfied with the staff.",
+      name: "AMIT BHADURI",
+    },
+    {
       text: "I am a patient of this dental care for last several years. Orthodontics has all the latest procedures and techniques.",
       name: "AMRITA ROY",
     },
     {
-      text: "The doctors are highly professional and caring. My treatment experience was smooth and comfortable.",
-      name: "RAHUL SEN",
-    },
-    {
-      text: "Excellent clinic with modern facilities. The staff is very friendly and supportive.",
-      name: "SNEHA DAS",
-    },
-    {
-      text: "Highly recommended for orthodontic treatment. The results exceeded my expectations.",
-      name: "ANKIT SHARMA",
+      text: "Thank you so much for the wonderful; treatment and valuable oral care advices.",
+      name:"TRIPTI BASU",
     },
   ];
 
   return (
     <section
-      className="relative py-24 bg-cover bg-center bg-fixed"
+      className="relative py-10 bg-cover bg-center bg-fixed"
       style={{
         backgroundImage:
           "url('https://lightslategray-lemur-726893.hostingersite.com/bg-imgs/testimonial-bg.jpg')",
@@ -38,7 +43,15 @@ export default function TestimonialSection() {
       {/* Blue Overlay */}
       <div className="absolute inset-0 bg-[#00A1D4]/70"></div>
 
-      <div className="relative z-10 max-w-6xl mx-auto px-4">
+      <motion.div className="relative z-10 max-w-6xl mx-auto px-4"
+      initial={{y:260}}
+      whileInView={{y:0}}
+      viewport={{once:true, amount:0.2}}
+      transition={{
+        duration:0.8,
+        ease:"easeIn"
+      }}
+      >
         {/* Heading */}
         <div className="text-center mb-14">
           <h2 className="text-white text-4xl md:text-5xl font-bold">
@@ -55,6 +68,7 @@ export default function TestimonialSection() {
           </div>
         </div>
 
+        
         {/* Slider */}
         <Swiper
           modules={[Navigation, Pagination, Autoplay]}
@@ -71,7 +85,7 @@ export default function TestimonialSection() {
         >
           {testimonials.map((item, index) => (
             <SwiperSlide key={index}>
-              <div className="max-w-4xl mx-auto text-center">
+              <div className="max-w-4xl mx-auto text-center min-h-[350px] flex flex-col justify-center">
                 <p className="text-white text-lg md:text-2xl leading-relaxed">
                   {item.text}
                 </p>
@@ -83,7 +97,7 @@ export default function TestimonialSection() {
             </SwiperSlide>
           ))}
         </Swiper>
-      </div>
+      </motion.div>
     </section>
   );
 }

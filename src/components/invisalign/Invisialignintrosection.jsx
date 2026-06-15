@@ -11,21 +11,28 @@ export default function InvisalignIntroSection() {
             Invisalign
           </h2>
 
-          <div className="w-24 h-1 bg-[#00A1D4] mx-auto mt-4"></div>
+          {/* Divider */}
+          <div className="flex items-center justify-center gap-4 mt-5">
+            <span className="w-16 h-[2px] bg-[#36384F]"></span>
+
+            <span className="w-2 h-2 rounded-full border-3 border-[#36384F]"></span>
+
+            <span className="w-16 h-[2px] bg-[#36384F]"></span>
+          </div>
         </div>
 
         {/* Two Columns */}
-        <div className="grid grid-cols-1 lg:grid-cols-[65%_35%] gap-12 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-[65%_35%] gap-12 items-start">
 
           {/* Left Column */}
           <div>
 
-            <div className="text-[#36384F] text-lg leading-relaxed text-justify">
+            <div className="text-[#36384F] text-lg leading-8 text-justify">
 
-                <h3 className="text-2xl md:text-3xl font-semibold text-[#00A1D4] mb-6">
+                <h3 className="text-2xl md:text-3xl font-semibold text-[#36384F] mb-6">
                     Invisalign: Indifferent Yet Impactful
                 </h3>
-              <p>
+              <p className="text-[14px]">
                 Are there alignment issues in your teeth? Do you often
                 hesitate to laugh out loud to cover your teeth? Are you shy
                 to wear dental braces? Well, you do not need to bother about
@@ -58,7 +65,7 @@ export default function InvisalignIntroSection() {
           </div>
 
           {/* Right Column */}
-          <div className="flex flex-col gap-6 items-center justify-center">
+          <div className="flex flex-col gap-2 items-center justify-center">
 
             {/* Top Image */}
             <Image

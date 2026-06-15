@@ -2,18 +2,18 @@ import Image from "next/image";
 
 export default function DentalVeneerscrownSection() {
   return (
-    <section className="py-20 bg-white">
-      <div className="w-[70vw] mx-auto">
+    <section className="py-10 bg-white">
+      <div className="w-[60vw] mx-auto">
 
         <div className="grid grid-cols-1 lg:grid-cols-[65%_35%] gap-16 items-center">
 
           {/* Left Column */}
           <div>
-            <h3 className="text-2xl md:text-3xl font-semibold text-[#00A1D4] mb-6">
+            <h3 className="text-2xl md:text-3xl font-semibold text-[#36384F] mb-6">
               Dental Veneers
             </h3>
 
-            <div className="text-[#36384F] text-lg leading-relaxed text-justify">
+            <div className="text-[#36384F] text-[15px] leading-relaxed text-justify">
               <p>
                 Dental veneers are normally constructed from medical-grade
                 ceramic and individually created for each patient to ensure
@@ -38,7 +38,7 @@ export default function DentalVeneerscrownSection() {
               alt="Dental Veneers"
               width={600}
               height={600}
-              className="w-full max-w-[400px] h-auto object-contain"
+              className="w-full max-w-[400px] h-auto object-contain rounded-3xl"
             />
           </div>
 

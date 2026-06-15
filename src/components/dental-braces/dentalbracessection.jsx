@@ -2,28 +2,36 @@ import Image from "next/image";
 
 export default function DentalBracesTreatmentSection() {
   return (
-    <section className="py-20 bg-white">
+    <section className="py-10 bg-white">
       <div className="w-[70vw] mx-auto">
 
         {/* Main Heading */}
-        <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-[#36384F]">
+        <div className="text-center mb-6">
+          <h2 className="text-4xl md:text-4xl font-bold text-[#36384F]">
             Dental Braces Treatment
           </h2>
 
-          <div className="w-24 h-1 bg-[#00A1D4] mx-auto mt-4"></div>
+          {/* Divider */}
+          <div className="flex items-center justify-center gap-4 mt-5">
+            <span className="w-16 h-[2px] bg-[#36384F]"></span>
+
+            <span className="w-2 h-2 rounded-full border-3 border-[#36384F]"></span>
+
+            <span className="w-16 h-[2px] bg-[#36384F]"></span>
+          </div>
+
         </div>
 
         {/* Section 1 */}
-        <div className="grid grid-cols-1 lg:grid-cols-[65%_35%] gap-20 items-center mb-24">
+        <div className="grid grid-cols-1 lg:grid-cols-[65%_35%] gap-20 items-center mb-14">
 
           {/* Left Column */}
           <div>
-            <h3 className="text-2xl md:text-3xl font-semibold text-[#00A1D4] mb-6">
+            <h3 className="text-2xl md:text-2xl font-semibold text-[#36384F] mb-6">
               What Are Dental Braces?
             </h3>
 
-            <div className="text-[#36384F] text-lg leading-relaxed text-justify">
+            <div className="text-[#36384F] text-[15px] leading-relaxed text-justify">
               <p>
                 Dental <strong>braces</strong> (also known as{" "}
                 <strong>teeth braces</strong>) are attachments /
@@ -68,11 +76,11 @@ export default function DentalBracesTreatmentSection() {
 
           {/* Left Column */}
           <div>
-            <h3 className="text-2xl md:text-3xl font-semibold text-[#00A1D4] mb-6">
+            <h3 className="text-2xl md:text-2xl font-semibold text-[#36384F] mb-6">
               Why see a dental braces specialist / orthodontist?
             </h3>
 
-            <div className="text-[#36384F] text-lg leading-relaxed text-justify">
+            <div className="text-[#36384F] text-[15px] leading-relaxed text-justify">
               <p>
                 Crooked teeth, <strong>crossbites</strong>,
                 <strong> underbites</strong>, <strong>deepbites</strong> – your

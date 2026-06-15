@@ -27,7 +27,6 @@ export default function ClinicalExcellenceSection() {
             A Center of Clinical Excellence for Every One
           </h2>
 
-          <div className="w-24 h-1 bg-[#00A1D4] mx-auto mt-4"></div>
         </div>
 
         {/* 6 Videos */}

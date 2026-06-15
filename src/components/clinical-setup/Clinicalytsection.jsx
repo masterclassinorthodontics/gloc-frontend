@@ -1,13 +1,13 @@
 export default function ClinicalytSection() {
   return (
-    <section className="py-20 bg-white">
+    <section className="py-10 bg-white">
   <div className="w-[70vw] mx-auto">
 
     <div className="grid grid-cols-1 lg:grid-cols-[65%_35%] gap-40 items-center">
 
       {/* Left Column */}
       <div className="flex justify-center">
-        <div className="text-[#36384F] text-lg leading-relaxed text-justify">
+        <div className="text-[#36384F] text-[15px] leading-relaxed text-justify">
            <p>
                 Besides saving time, iTero systems improve the overall
                 experience of the patients. They are designed to be powerful,
@@ -18,7 +18,7 @@ export default function ClinicalytSection() {
                 Eastern India to use this system to provide value-added
                 services to our patients.
                 This digital innovation has helped us transform our
-                practices for the overall satisfaction of our patients.
+                practices for the overall satisfaction of our patients.<br/><br/>
                 Our clinic has in-house <strong>iTero scanner</strong> that
                 are designed specifically to work with the Invisalign system
                 to provide the best workflow possible.
