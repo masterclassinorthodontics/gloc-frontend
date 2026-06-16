@@ -1,4 +1,5 @@
 "use client";
+import { motion } from "framer-motion";
 
 import { useState } from "react";
 import Image from "next/image";
@@ -69,7 +70,15 @@ export default function Achieveawards() {
         {/* Overlay */}
         <div className="absolute inset-0 bg-black/40"></div>
 
-        <div className="relative z-10 max-w-[1800px] mx-auto px-6">
+        <motion.div className="relative z-10 max-w-[1800px] mx-auto px-6"
+        initial={{y:280}}
+        whileInView={{y:0}}
+        viewport={{once:true, amount:0.2}}
+        transition={{
+          duration: 0.8,
+          ease:"easeIn",
+        }}
+        >
           <h2 className="text-center text-white text-4xl font-bold mb-6">
             Achievements & Awards
           </h2>
@@ -134,7 +143,7 @@ export default function Achieveawards() {
             ))}
           </Swiper>
           </div>
-        </div>
+        </motion.div>
       </section>
 
       {/* Full Screen Modal */}

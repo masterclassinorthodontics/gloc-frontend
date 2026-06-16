@@ -44,7 +44,7 @@ export default function DentalSpecialistSection() {
             <div className="corner-br"></div>
 
           <Image
-            src="https://lightslategray-lemur-726893.hostingersite.com/logoimgs/orthodontist.png"
+            src="https://lightslategray-lemur-726893.hostingersite.com/cdn-imgs/logoimgs/orthodontist.png"
             alt="Specialist 1"
             width={600}
             height={400}
@@ -83,7 +83,7 @@ export default function DentalSpecialistSection() {
             <div className="corner-br"></div>
 
           <Image
-            src="https://lightslategray-lemur-726893.hostingersite.com/logoimgs/oral-and-maxillofacial.png"
+            src="https://lightslategray-lemur-726893.hostingersite.com/cdn-imgs/logoimgs/oral-and-maxillofacial.png"
             alt="Specialist 2"
             width={600}
             height={400}
@@ -123,7 +123,7 @@ export default function DentalSpecialistSection() {
             <div className="corner-br"></div>
 
           <Image
-            src="https://lightslategray-lemur-726893.hostingersite.com/logoimgs/prosthodontist.png"
+            src="https://lightslategray-lemur-726893.hostingersite.com/cdn-imgs/logoimgs/prosthodontist.png"
             alt="Specialist 3"
             width={600}
             height={400}
@@ -161,7 +161,7 @@ export default function DentalSpecialistSection() {
             {/* Bottom Right Corner */}
             <div className="corner-br"></div>            
           <Image
-            src="https://lightslategray-lemur-726893.hostingersite.com/logoimgs/endodontist.png"
+            src="https://lightslategray-lemur-726893.hostingersite.com/cdn-imgs/logoimgs/endodontist.png"
             alt="Specialist 4"
             width={600}
             height={400}
@@ -201,7 +201,7 @@ export default function DentalSpecialistSection() {
             <div className="corner-br"></div>
 
           <Image
-            src="https://lightslategray-lemur-726893.hostingersite.com/logoimgs/paedodontist.png"
+            src="https://lightslategray-lemur-726893.hostingersite.com/cdn-imgs/logoimgs/paedodontist.png"
             alt="Specialist 5"
             width={600}
             height={400}
@@ -235,7 +235,7 @@ export default function DentalSpecialistSection() {
             <div className="corner-br"></div>
 
           <Image
-            src="https://lightslategray-lemur-726893.hostingersite.com/logoimgs/periodontist-implantologist.png"
+            src="https://lightslategray-lemur-726893.hostingersite.com/cdn-imgs/logoimgs/periodontist-implantologist.png"
             alt="Specialist 6"
             width={600}
             height={400}

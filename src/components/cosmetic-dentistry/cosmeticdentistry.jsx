@@ -25,7 +25,7 @@ export default function CosmeticDentistrySection() {
           {/* Left Column */}
           <div>
 
-            <h3 className="text-2xl md:text-2xl font-semibold text-[#36384F] mb-6">
+            <h3 className="text-2xl md:text-2xl font-bold text-[#36384F] mb-6">
               Cosmetic Dentistry
             </h3>
 

@@ -1,8 +1,17 @@
+'use client'
 import Image from "next/image";
+import { motion } from "framer-motion";
 
 export default function HomeSection2() {
   return (
-    <section>
+    <motion.section
+      initial={{y:100}}
+  whileInView={{y:0}}
+  viewport={{once:true}}
+  transition={{
+    duration: 0.6,
+    ease: "easeIn",}}
+    >
   <div className="grid grid-cols-1 xl:grid-cols-3">
 
     {/* Card 1 */}
@@ -22,7 +31,7 @@ export default function HomeSection2() {
       <div className="flex items-start gap-6">
         <div className="flex-shrink-0">
           <Image
-            src="/images/common/location.png"
+            src="https://lightslategray-lemur-726893.hostingersite.com/cdn-imgs/common/location.png"
             alt="Address"
             width={70}
             height={70}
@@ -57,7 +66,7 @@ export default function HomeSection2() {
       <div className="flex items-start gap-6">
         <div className="flex-shrink-0">
           <Image
-            src="/images/common/appoint.png"
+            src="https://lightslategray-lemur-726893.hostingersite.com/cdn-imgs/common/appoint.png"
             alt="Appointment"
             width={70}
             height={70}
@@ -101,7 +110,7 @@ export default function HomeSection2() {
       <div className="flex items-start gap-6">
         <div className="flex-shrink-0">
           <Image
-            src="/images/common/time.png"
+            src="https://lightslategray-lemur-726893.hostingersite.com/cdn-imgs/common/time.png"
             alt="Open Hours"
             width={70}
             height={70}
@@ -125,6 +134,6 @@ export default function HomeSection2() {
     </div>
 
   </div>
-</section>
+</motion.section>
   );
 }

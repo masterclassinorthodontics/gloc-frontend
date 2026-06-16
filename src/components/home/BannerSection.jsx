@@ -8,8 +8,8 @@ export default function BannerSection() {
   const [currentSlide, setCurrentSlide] = useState(0);
 
   const images = [
-    "/images/common/bannerimgone.jpg",
-    "/images/common/bannerimgtwo.jpg",
+    "https://lightslategray-lemur-726893.hostingersite.com/cdn-imgs/common/bannerimgone.jpg",
+    "https://lightslategray-lemur-726893.hostingersite.com/cdn-imgs/common/bannerimgtwo.jpg",
   ];
 
   useEffect(() => {
@@ -25,7 +25,7 @@ export default function BannerSection() {
       <div className="flex flex-col xl:flex-row min-h-[900px]">
 
         {/* Left Column */}
-        <div className="relative w-full xl:w-[40%] h-[60vh] md:h-[100vh] xl:min-h-[1000px] bg-white overflow-hidden">
+        <div className="relative w-full xl:w-[41%] h-[60vh] md:h-[100vh] xl:min-h-[1000px] bg-white overflow-hidden">
 
           {images.map((image, index) => (
             <div
@@ -49,28 +49,28 @@ export default function BannerSection() {
         </div>
 
         {/* Right Column */}
-        <div className="w-full xl:w-[60%] bg-[#36384F] min-h-[400px] md:min-h-[500px] xl:min-h-[1000px]">
+        <div className="w-full xl:w-[59%] bg-[#36384F] min-h-[400px] md:min-h-[500px] xl:min-h-[1000px]">
           {/* Right content goes here */}
 
           <div className="flex flex-col justify-start h-full px-6 md:px-10 xl:px-8 py-6 text-white">
 
   {/* Heading */}
-  <h1 className="text-3xl md:text-4xl xl:text-5xl font-semibold">
+  <h1 className="text-3xl md:text-4xl xl:text-5xl font-bold">
     Dr Abhisek Ghosh
   </h1>
   <div className="w-[150px] h-[3px] bg-white my-4"></div>
 
   {/* Sub Heading */}
   <div className="space-y-1 mb-12">
-    <p className="text-lg md:text-xl font-light">
+    <p className="text-lg md:text-2xl font-semibold">
       B.D.S(Chen), M.D.S(Ortho)(Manipal), MorthRCS(Edinburgh), MorthRCS(England),
     </p>
 
-    <p className="text-lg md:text-xl font-light">
+    <p className="text-lg md:text-2xl font-semibold">
       FFDOrth(Ireland), MorthRCPS(Glasgow), D.I.B.O, F.A.G.E
     </p>
 
-    <p className="text-lg md:text-xl font-light">
+    <p className="text-lg md:text-2xl font-semibold">
       Consultant Orthodontist and Chief Dentist
     </p>
   </div>
@@ -82,7 +82,7 @@ export default function BannerSection() {
 
   {/* Left Side - List */}
   <div className="flex-1">
-    <ul className="space-y-2 text-base md:text-lg">
+    <ul className="space-y-2 text-base md:text-[14px] font-semibold">
 
       <li className="flex items-start">
         <span className="mr-3 text-[#00A1D4] text-xl"><FaStethoscope /></span>
@@ -193,9 +193,9 @@ export default function BannerSection() {
 
 </div>
 
-  <div className="mt-10 flex justify-center xl:justify-start">
+  <div className="mt-40 flex justify-center xl:justify-start">
   <Image
-    src="/images/common/dig-banner.jpg"
+    src="https://lightslategray-lemur-726893.hostingersite.com/cdn-imgs/common/dig-banner.jpg"
     alt="Dr Abhisek Ghosh"
     width={1200}
     height={120}

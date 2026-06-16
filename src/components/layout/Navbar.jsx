@@ -115,7 +115,7 @@ useEffect(() => {
       {/* Logo */}
       <div className="flex-shrink-0 h-[70px] flex items-center justify-start">
         <Image
-          src="/images/common/logo.jpg"
+          src="/images/common/favicon.jpg"
           alt="Great Lakes Dental Clinic"
           width={180}
           height={40}
@@ -126,7 +126,7 @@ useEffect(() => {
 
       {/* Desktop Navigation */}
       <nav className="hidden xl:block">
-        <ul className="flex items-center font-medium text-[15px] text-[#36384F]">
+        <ul className="flex items-center font-medium text-[12px] text-[#36384F]">
 
           {[
             { label: "HOME", href: "/" },
@@ -142,16 +142,17 @@ useEffect(() => {
             <li key={item.label}>
               <a
                 href={item.href}
-                className="
-                  flex
-                  items-center
-                  px-6
-                  h-[50px]
-                  transition-all
-                  duration-500
-                  hover:bg-[#00A1D4]
-                  hover:text-white
-                "
+                className={`
+    flex
+    items-center
+    h-[50px]
+    transition-all
+    duration-300
+    ease-in-out
+    hover:bg-[#00A1D4]
+    hover:text-white
+    ${isSticky ? "px-4" : "px-5"}
+  `}
               >
                 {item.label}
               </a>

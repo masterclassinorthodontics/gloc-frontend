@@ -1,6 +1,6 @@
 export default function InvisalignSafetyDoctorsSection() {
   return (
-    <section className="py-10 bg-white">
+    <section className="py-2 bg-white">
       <div className="w-[70vw] mx-auto">
 
         {/* First Sub Heading */}

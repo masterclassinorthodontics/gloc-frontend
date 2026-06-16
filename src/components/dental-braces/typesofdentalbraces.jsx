@@ -29,126 +29,126 @@ export default function TypesOfDentalBracesSection() {
   ];
 
   return (
-    <section className="py-10 bg-white">
-      <div className="w-[70vw] mx-auto">
-        
-        {/* Sub Heading */}
-        <h3 className="text-2xl md:text-2xl font-semibold text-[#36384F] mb-8">
-          What are the types of dental braces?
-        </h3>
+      <section className="py-10 bg-white">
+        <div className="w-[70vw] mx-auto">
+          
+          {/* Sub Heading */}
+          <h3 className="text-2xl md:text-2xl font-semibold text-[#36384F] mb-8">
+            What are the types of dental braces?
+          </h3>
 
-        {/* Content */}
-        <div className="text-[#36384F] text-lg leading-relaxed text-justify">
+          {/* Content */}
+          <div className="text-[#36384F] text-lg leading-relaxed text-justify">
 
-          <h4 className="font-semibold text-xl mb-3">
-            Metal Braces
-          </h4>
+            <h4 className="font-semibold text-xl mb-3">
+              Metal Braces
+            </h4>
 
-          <p className="mb-8 text-[15px]">
-            The traditional ones that treat extreme overcrowding and abnormal
-            alignment of teeth and jawline. The <strong>metal braces</strong>{" "}
-            help align the teeth and jawline in small increments at a time.
-            In modern times, metal braces come with a wide range of color
-            options that make them more visually appealing.
+            <p className="mb-8 text-[15px]">
+              The traditional ones that treat extreme overcrowding and abnormal
+              alignment of teeth and jawline. The <strong>metal braces</strong>{" "}
+              help align the teeth and jawline in small increments at a time.
+              In modern times, metal braces come with a wide range of color
+              options that make them more visually appealing.
 
-            While they seem like an inconvenience and a lengthy method,
-            once your treatment is done, your smile will be the reward
-            you will get.
-          </p>
+              While they seem like an inconvenience and a lengthy method,
+              once your treatment is done, your smile will be the reward
+              you will get.
+            </p>
 
-          <h4 className="font-semibold text-xl mb-3">
-            Clear Ceramic Braces
-          </h4>
+            <h4 className="font-semibold text-xl mb-3">
+              Clear Ceramic Braces
+            </h4>
 
-          <p className="mb-8 text-[15px]">
-            <strong>Invisible braces</strong> /{" "}
-            <strong>Ceramic braces</strong> /{" "}
-            <strong>Clear braces</strong> and metal braces are almost the same;
-            however, the only difference between them is that one is less
-            visible than the other.
+            <p className="mb-8 text-[15px]">
+              <strong>Invisible braces</strong> /{" "}
+              <strong>Ceramic braces</strong> /{" "}
+              <strong>Clear braces</strong> and metal braces are almost the same;
+              however, the only difference between them is that one is less
+              visible than the other.
 
-            <strong> Tooth-colored braces </strong>
-            or clear ceramic braces are attached to the teeth surface just like
-            metal braces and provide similar treatment results.
-          </p>
+              <strong> Tooth-colored braces </strong>
+              or <strong> clear ceramic braces </strong> are attached to the teeth surface just like
+              metal braces and provide similar treatment results.
+            </p>
 
-          <h4 className="font-semibold text-xl mb-3">
-            Invisalign
-          </h4>
+            <h4 className="font-semibold text-xl mb-3">
+              Invisalign
+            </h4>
 
-          <p className="mb-14 text-[15px]">
-            To achieve a prettier smile, <strong>Invisalign</strong> treatment
-            can be done. Invisalign treatment is a go-to choice for those with
-            mild to severe malocclusions.
+            <p className="mb-14 text-[15px]">
+              To achieve a prettier smile, <strong>Invisalign treatment </strong> 
+              can be done. Invisalign treatment is a go-to choice for those with
+              mild to severe malocclusions.
 
-            Clear plastic aligner trays are used in this process to shift the
-            teeth gradually into proper alignment. The patients are required
-            to wear it for at least 20 hours a day.
+              <strong>Clear plastic aligner </strong>trays are used in this process to shift the
+              <strong> teeth</strong> gradually into proper <strong> alignment. </strong> The patients are required
+              to wear it for at least 20 hours a day.
 
-            It can be removed very easily, allowing the patients to brush,
-            floss, and maintain their oral health as they normally do.
+              It can be removed very easily, allowing the patients to brush,
+              floss, and maintain their oral health as they normally do.
 
-            Invisalign is apt for those who are conscious about their appearance
-            as it looks like a clear plastic mold and is completely invisible.
+              Invisalign is apt for those who are conscious about their appearance
+              as it looks like a clear plastic mold and is completely invisible.
 
-            There is no restriction in chewing hard foods with Invisalign
-            treatment as is commonly with other braces treatment.
-          </p>
-        </div>
+              There is no restriction in chewing hard foods with Invisalign
+              treatment as is commonly with other braces treatment.
+            </p>
+          </div>
 
-        {/* Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-  {bracesTypes.map((item, index) => (
-    <div
-      key={index}
-      className="
-        overflow-hidden
-        transition-all
-        duration-300
-        hover:-translate-y-2
-        flex
-        flex-col
-        h-full
-      "
-    >
-      {/* Image */}
+          {/* Cards */}
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+    {bracesTypes.map((item, index) => (
       <div
-      className="h-[250px] flex items-end justify-center"
-      >
-      <Image
-        src={item.image}
-        alt={item.title}
-        width={600}
-        height={400}
-        className="w-auto max-h-full object-contain"
-      />
-      </div>
-
-      {/* Content */}
-      <div
+        key={index}
         className="
+          overflow-hidden
+          transition-all
+          duration-300
+          hover:-translate-y-2
           flex
           flex-col
-          flex-1
-          justify-center
-          items-center
-          p-6
+          h-full
         "
-        style={{ backgroundColor: item.bgColor }}
       >
-        <h4 className="text-2xl font-semibold text-white text-center mb-4">
-          {item.title}
-        </h4>
+        {/* Image */}
+        <div
+        className="h-[250px] flex items-end justify-center"
+        >
+        <Image
+          src={item.image}
+          alt={item.title}
+          width={600}
+          height={400}
+          className="w-auto max-h-full object-contain"
+        />
+        </div>
 
-        <p className="text-white text-center leading-relaxed">
-          {item.description}
-        </p>
-      </div>
-    </div>
-  ))}
-</div>
+        {/* Content */}
+        <div
+          className="
+            flex
+            flex-col
+            flex-1
+            justify-center
+            items-center
+            p-6
+          "
+          style={{ backgroundColor: item.bgColor }}
+        >
+          <h4 className="text-2xl font-semibold text-white text-center mb-4">
+            {item.title}
+          </h4>
 
+          <p className="text-white text-center leading-relaxed">
+            {item.description}
+          </p>
+        </div>
       </div>
-    </section>
+    ))}
+  </div>
+
+        </div>
+      </section>
   );
 }
