@@ -33,33 +33,9 @@ export default function InvisalignIntroSection() {
                     Invisalign: Indifferent Yet Impactful
                 </h3>
               <p className="text-[14px]">
-                Are there alignment issues in your teeth? Do you often
-                hesitate to laugh out loud to cover your teeth? Are you shy
-                to wear dental braces? Well, you do not need to bother about
-                it anymore.
-
-                Great Lakes <strong>Invisalign</strong> and{" "}
-                <strong>Clear Aligner</strong> Centre is here with the most
-                promising solution to your complex orthodontic issues.
-
-                No more fixed dental braces for a year or more to get back
-                your beautiful smile when you opt for the{" "}
-                <strong>Invisalign treatment in Kolkata.</strong>
-
-                But treatment of Invisalign requires a high level of
-                clinical skills and understanding of digital technology.
-
-                Dr. Abhisek Ghosh and his team of experts are experienced
-                Invisalign orthodontists who bring this highly advanced form
-                of treatment to your doorstep.
-
-                Dr. Abhisek Ghosh has over a decade of experience in
-                cosmetic dentistry and <strong>dental braces</strong> with
-                10,000+ happy dental braces patients.
-
-                He always looks forward to introducing updated treatments at
-                the Great Lakes Dental Clinic in Kolkata for the ease and
-                convenience of residents.
+                Are there alignment issues in your teeth? Do you often hesitate to laugh out loud to cover your teeth? Are you shy to wear dental braces or are compromising <strong>without braces</strong>? Well, you do not need to bother about it anymore. <strong>Great Lakes Invisalign</strong> and<strong> Clear Aligner</strong> Centre – is here with the most promising dental <strong>invisible aligners</strong> solution for your complex orthodontic issues. No more fixed dental braces for a year or more to get back your beautiful smile; when you opt for the <strong>best Invisalign treatment in Kolkata</strong>. But treatment of <strong>Invisalign</strong> requires a high level of clinical skills and
+understanding of digital technology which you will receive here from the <strong>top Invisalign</strong> provider in
+Eastern India. Dr.Abhisek Ghosh and his team of experts are experienced <strong>Invisalign orthodontists</strong> who brings this highly advanced form of treatment at your doorstep. He has over a decade of experience in cosmetic dentistry and transparent orthodontic braces and 10,000+ happy dental braces patients. He always looks forward to introducing these updated treatments at the Great Lakes Dental Clinic in Kolkata for residents’ ease.
               </p>
             </div>
           </div>
