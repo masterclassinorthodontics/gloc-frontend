@@ -11,6 +11,13 @@ import HomeSection2 from "@/components/home/Threesection";
 import TreatmentResult from "@/components/home/treatmentresult";
 import YtVideoSection from "@/components/home/ytvideosection";
 
+
+export const metadata = {
+  title: "Best Dental Braces In Kolkata - Great Lakes Dental Clinics",
+  description:
+    "Great Lakes Dental Clinic and Orthodontic Centre offers Invisalign, Dental Braces, Cosmetic Dentistry, Dental Implants and Orthodontic Treatments in Kolkata.",
+};
+
 export default function bestdentalbracekolkata(){
     return(
         <>

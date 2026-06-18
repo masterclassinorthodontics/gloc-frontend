@@ -37,7 +37,7 @@ export default function TestimonialSection() {
       className="relative py-10 bg-cover bg-center bg-fixed"
       style={{
         backgroundImage:
-          "url('https://lightslategray-lemur-726893.hostingersite.com/bg-imgs/testimonial-bg.jpg')",
+          "url('https://lightslategray-lemur-726893.hostingersite.com/cdn-imgs/bg-imgs/testimonial-bg.jpg')",
       }}
     >
       {/* Blue Overlay */}

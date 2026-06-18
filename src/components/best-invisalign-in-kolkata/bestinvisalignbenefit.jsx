@@ -59,11 +59,11 @@ export default function BestInvisalignBenefitsSection() {
               ))}
             </ul>
 
-            <p className="text-[#36384F] text-[14px] leading-relaxed">
+            {/* <p className="text-[#36384F] text-[14px] leading-relaxed">
               Next time you plan to get a perfect smile to flaunt,
               contact us for the{" "}
               <strong>Invisalign treatment in Kolkata</strong>.
-            </p>
+            </p> */}
 
           </div>
 

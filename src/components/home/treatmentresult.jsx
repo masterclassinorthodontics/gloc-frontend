@@ -17,21 +17,21 @@ export default function TreatmentResult({
   const [selectedImage, setSelectedImage] = useState(null);
 
   const images = [
-    "https://lightslategray-lemur-726893.hostingersite.com/treatmentimages/smile2.jpg",
-    "https://lightslategray-lemur-726893.hostingersite.com/treatmentimages/smile1.jpg",
-    "https://lightslategray-lemur-726893.hostingersite.com/treatmentimages/smile15.jpg",
-    "https://lightslategray-lemur-726893.hostingersite.com/treatmentimages/smile14.jpg",
-    "https://lightslategray-lemur-726893.hostingersite.com/treatmentimages/smile13.jpg",
-    "https://lightslategray-lemur-726893.hostingersite.com/treatmentimages/smile12.jpg",
-    "https://lightslategray-lemur-726893.hostingersite.com/treatmentimages/smile11.jpg",
-    "https://lightslategray-lemur-726893.hostingersite.com/treatmentimages/smile10.jpg",
-    "https://lightslategray-lemur-726893.hostingersite.com/treatmentimages/smile9.jpg",
-    "https://lightslategray-lemur-726893.hostingersite.com/treatmentimages/smile8.jpg",
-    "https://lightslategray-lemur-726893.hostingersite.com/treatmentimages/smile7.jpg",
-    "https://lightslategray-lemur-726893.hostingersite.com/treatmentimages/smile6.jpg",
-    "https://lightslategray-lemur-726893.hostingersite.com/treatmentimages/smile5.jpg",
-    "https://lightslategray-lemur-726893.hostingersite.com/treatmentimages/smile4.jpg",
-    "https://lightslategray-lemur-726893.hostingersite.com/treatmentimages/smile3.jpg",
+    "https://lightslategray-lemur-726893.hostingersite.com/cdn-imgs/treatmentimages/smile2.jpg",
+    "https://lightslategray-lemur-726893.hostingersite.com/cdn-imgs/treatmentimages/smile1.jpg",
+    "https://lightslategray-lemur-726893.hostingersite.com/cdn-imgs/treatmentimages/smile15.jpg",
+    "https://lightslategray-lemur-726893.hostingersite.com/cdn-imgs/treatmentimages/smile14.jpg",
+    "https://lightslategray-lemur-726893.hostingersite.com/cdn-imgs/treatmentimages/smile13.jpg",
+    "https://lightslategray-lemur-726893.hostingersite.com/cdn-imgs/treatmentimages/smile12.jpg",
+    "https://lightslategray-lemur-726893.hostingersite.com/cdn-imgs/treatmentimages/smile11.jpg",
+    "https://lightslategray-lemur-726893.hostingersite.com/cdn-imgs/treatmentimages/smile10.jpg",
+    "https://lightslategray-lemur-726893.hostingersite.com/cdn-imgs/treatmentimages/smile9.jpg",
+    "https://lightslategray-lemur-726893.hostingersite.com/cdn-imgs/treatmentimages/smile8.jpg",
+    "https://lightslategray-lemur-726893.hostingersite.com/cdn-imgs/treatmentimages/smile7.jpg",
+    "https://lightslategray-lemur-726893.hostingersite.com/cdn-imgs/treatmentimages/smile6.jpg",
+    "https://lightslategray-lemur-726893.hostingersite.com/cdn-imgs/treatmentimages/smile5.jpg",
+    "https://lightslategray-lemur-726893.hostingersite.com/cdn-imgs/treatmentimages/smile4.jpg",
+    "https://lightslategray-lemur-726893.hostingersite.com/cdn-imgs/treatmentimages/smile3.jpg",
   ];
 
   const handleShare = async (image) => {
@@ -63,7 +63,7 @@ export default function TreatmentResult({
     !removeBackground
       ? {
           backgroundImage:
-            "url('https://lightslategray-lemur-726893.hostingersite.com/treatmentimages/bg.jpg')",
+            "url('https://lightslategray-lemur-726893.hostingersite.com/cdn-imgs/treatmentimages/bg.jpg')",
         }
       : {}
   }

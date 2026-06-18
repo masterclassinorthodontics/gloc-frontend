@@ -14,31 +14,31 @@ export default function Achieveawards() {
   const [selectedImage, setSelectedImage] = useState(null);
 
   const images = [
-    "https://lightslategray-lemur-726893.hostingersite.com/gallery/Certificate1.png",
-    "https://lightslategray-lemur-726893.hostingersite.com/gallery/Certificate2.png",
-    "https://lightslategray-lemur-726893.hostingersite.com/gallery/Certificate3A.png",
-    "https://lightslategray-lemur-726893.hostingersite.com/gallery/Certificate4A.png",
-    "https://lightslategray-lemur-726893.hostingersite.com/gallery/Certificate9-1.png",
-    "https://lightslategray-lemur-726893.hostingersite.com/gallery/Certificate4.png",
-    "https://lightslategray-lemur-726893.hostingersite.com/gallery/Certificate5.png",
-    "https://lightslategray-lemur-726893.hostingersite.com/gallery/Certificate6.png",
-    "https://lightslategray-lemur-726893.hostingersite.com/gallery/Certificate7.png",
-    "https://lightslategray-lemur-726893.hostingersite.com/gallery/Certificate8.png",
-    "https://lightslategray-lemur-726893.hostingersite.com/gallery/Certificate10.png",
-    "https://lightslategray-lemur-726893.hostingersite.com/gallery/Certificate11.png",
-    "https://lightslategray-lemur-726893.hostingersite.com/gallery/Certificate12.png",
-    "https://lightslategray-lemur-726893.hostingersite.com/gallery/Certificate13.png",
-    "https://lightslategray-lemur-726893.hostingersite.com/gallery/Certificate14.png",
-    "https://lightslategray-lemur-726893.hostingersite.com/gallery/Certificate15.png",
-    "https://lightslategray-lemur-726893.hostingersite.com/gallery/Certificate16.png",
-    "https://lightslategray-lemur-726893.hostingersite.com/gallery/Certificate17.png",
-    "https://lightslategray-lemur-726893.hostingersite.com/gallery/Certificate18.png",
-    "https://lightslategray-lemur-726893.hostingersite.com/gallery/Certificate19.png",
-    "https://lightslategray-lemur-726893.hostingersite.com/gallery/Certificate20.png",
-    "https://lightslategray-lemur-726893.hostingersite.com/gallery/Certificate21.png",
-    "https://lightslategray-lemur-726893.hostingersite.com/gallery/Certificate22-1.png",
-    "https://lightslategray-lemur-726893.hostingersite.com/gallery/Certificate24-1.png",
-    "https://lightslategray-lemur-726893.hostingersite.com/gallery/Certificate25-1.png",
+    "https://lightslategray-lemur-726893.hostingersite.com/cdn-imgs/gallery/Certificate1.png",
+    "https://lightslategray-lemur-726893.hostingersite.com/cdn-imgs/gallery/Certificate2.png",
+    "https://lightslategray-lemur-726893.hostingersite.com/cdn-imgs/gallery/Certificate3A.png",
+    "https://lightslategray-lemur-726893.hostingersite.com/cdn-imgs/gallery/Certificate4A.png",
+    "https://lightslategray-lemur-726893.hostingersite.com/cdn-imgs/gallery/Certificate9-1.png",
+    "https://lightslategray-lemur-726893.hostingersite.com/cdn-imgs/gallery/Certificate4.png",
+    "https://lightslategray-lemur-726893.hostingersite.com/cdn-imgs/gallery/Certificate5.png",
+    "https://lightslategray-lemur-726893.hostingersite.com/cdn-imgs/gallery/Certificate6.png",
+    "https://lightslategray-lemur-726893.hostingersite.com/cdn-imgs/gallery/Certificate7.png",
+    "https://lightslategray-lemur-726893.hostingersite.com/cdn-imgs/gallery/Certificate8.png",
+    "https://lightslategray-lemur-726893.hostingersite.com/cdn-imgs/gallery/Certificate10.png",
+    "https://lightslategray-lemur-726893.hostingersite.com/cdn-imgs/gallery/Certificate11.png",
+    "https://lightslategray-lemur-726893.hostingersite.com/cdn-imgs/gallery/Certificate12.png",
+    "https://lightslategray-lemur-726893.hostingersite.com/cdn-imgs/gallery/Certificate13.png",
+    "https://lightslategray-lemur-726893.hostingersite.com/cdn-imgs/gallery/Certificate14.png",
+    "https://lightslategray-lemur-726893.hostingersite.com/cdn-imgs/gallery/Certificate15.png",
+    "https://lightslategray-lemur-726893.hostingersite.com/cdn-imgs/gallery/Certificate16.png",
+    "https://lightslategray-lemur-726893.hostingersite.com/cdn-imgs/gallery/Certificate17.png",
+    "https://lightslategray-lemur-726893.hostingersite.com/cdn-imgs/gallery/Certificate18.png",
+    "https://lightslategray-lemur-726893.hostingersite.com/cdn-imgs/gallery/Certificate19.png",
+    "https://lightslategray-lemur-726893.hostingersite.com/cdn-imgs/gallery/Certificate20.png",
+    "https://lightslategray-lemur-726893.hostingersite.com/cdn-imgs/gallery/Certificate21.png",
+    "https://lightslategray-lemur-726893.hostingersite.com/cdn-imgs/gallery/Certificate22-1.png",
+    "https://lightslategray-lemur-726893.hostingersite.com/cdn-imgs/gallery/Certificate24-1.png",
+    "https://lightslategray-lemur-726893.hostingersite.com/cdn-imgs/gallery/Certificate25-1.png",
   ];
 
   const handleShare = async (image) => {
@@ -64,13 +64,13 @@ export default function Achieveawards() {
         className="relative py-20 bg-fixed bg-center bg-cover"
         style={{
           backgroundImage:
-            "url('https://greatlakesdentalclinics.com/wp-content/uploads/2023/04/IMG-2111a.jpg')",
+            "url('https://lightslategray-lemur-726893.hostingersite.com/cdn-imgs/gallery/Achieveawards-bg.jpg')",
         }}
       >
         {/* Overlay */}
         <div className="absolute inset-0 bg-black/40"></div>
 
-        <motion.div className="relative z-10 max-w-[1800px] mx-auto px-6"
+        <motion.div className="relative z-10 w-[90vw] mx-auto px-6"
         initial={{y:280}}
         whileInView={{y:0}}
         viewport={{once:true, amount:0.2}}
@@ -92,7 +92,7 @@ export default function Achieveawards() {
             <span className="w-16 h-[2px] bg-white"></span>
           </div>
 
-        <div className="relative px-4">
+        <div className="relative px-4 overflow-visible">
           <Swiper
           className="awards-swiper"
             modules={[Autoplay, Navigation]}
@@ -121,16 +121,16 @@ export default function Achieveawards() {
                 <div
                   onClick={() => setSelectedImage(image)}
                   className="
-  relative
-  h-[400px]
-  xl:h-[500px]
-  overflow-hidden
-  rounded-lg
-  cursor-pointer
-  transition-all
-  duration-300
-  hover:scale-105
-"
+                    relative
+                    h-[400px]
+                    xl:h-[500px]
+                    overflow-hidden
+                    rounded-lg
+                    cursor-pointer
+                    transition-all
+                    duration-300
+                    hover:scale-105
+                  "
                 >
                   <Image
                     src={image}

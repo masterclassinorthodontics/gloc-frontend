@@ -143,16 +143,16 @@ useEffect(() => {
               <a
                 href={item.href}
                 className={`
-    flex
-    items-center
-    h-[50px]
-    transition-all
-    duration-300
-    ease-in-out
-    hover:bg-[#00A1D4]
-    hover:text-white
-    ${isSticky ? "px-4" : "px-5"}
-  `}
+                  flex
+                  items-center
+                  h-[50px]
+                  transition-all
+                  duration-300
+                  ease-in-out
+                  hover:bg-[#00A1D4]
+                  hover:text-white
+                  ${isSticky ? "px-4" : "px-5"}
+                `}
               >
                 {item.label}
               </a>
@@ -174,44 +174,54 @@ useEffect(() => {
   </div>
 
   {/* Mobile / Tablet Menu */}
-  {isMenuOpen && (
-    <div className="xl:hidden bg-[#F3F3F3] border-t border-gray-300">
-      <ul className="flex flex-col">
+  <div
+  className={`
+    xl:hidden
+    bg-[#F3F3F3]
+    border-t
+    border-gray-300
+    overflow-hidden
+    transition-all
+    duration-300
+    ease-in-out
+    ${isMenuOpen ? "max-h-[600px] opacity-100" : "max-h-0 opacity-0"}
+  `}
+>
+  <ul className="flex flex-col">
 
-        {[
-          { label: "Home", href: "/" },
-          { label: "About Us", href: "/about-us" },
-          { label: "Clinical Setup", href: "/clinical-setup" },
-          { label: "Treatment Options", href: "/dental-treatment-options" },
-          { label: "Dental Braces", href: "/dental-braces" },
-          { label: "Invisalign", href: "/invisalign" },
-          { label: "Cosmetic Dentistry", href: "/cosmetic-dentistry" },
-          { label: "Results", href: "/treatment-results" },
-          { label: "Contact Us", href: "/contact-us" },
-        ].map((item) => (
-          <li key={item.label}>
-            <a
-              href={item.href}
-              className="
-                block
-                px-6
-                py-4
-                text-[#36384F]
-                font-medium
-                transition-all
-                duration-300
-                hover:bg-[#36384F]
-                hover:text-white
-              "
-            >
-              {item.label}
-            </a>
-          </li>
-        ))}
+    {[
+      { label: "Home", href: "/" },
+      { label: "About Us", href: "/about-us" },
+      { label: "Clinical Setup", href: "/clinical-setup" },
+      { label: "Treatment Options", href: "/dental-treatment-options" },
+      { label: "Dental Braces", href: "/dental-braces" },
+      { label: "Invisalign", href: "/invisalign" },
+      { label: "Cosmetic Dentistry", href: "/cosmetic-dentistry" },
+      { label: "Results", href: "/treatment-results" },
+      { label: "Contact Us", href: "/contact-us" },
+    ].map((item) => (
+      <li key={item.label}>
+        <a
+          href={item.href}
+          className="
+            block
+            px-6
+            py-4
+            text-[#36384F]
+            font-medium
+            transition-all
+            duration-300
+            hover:bg-[#36384F]
+            hover:text-white
+          "
+        >
+          {item.label}
+        </a>
+      </li>
+    ))}
 
-      </ul>
-    </div>
-  )}
+  </ul>
+</div>
 </div>
     </header>
   );

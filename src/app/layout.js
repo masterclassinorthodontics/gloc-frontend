@@ -3,6 +3,8 @@ import { Open_Sans, Poppins } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/layout/Navbar";
 import FooterSection from "@/components/layout/Footer";
+import WhatsappButton from "@/components/layout/whatsappbutton";
+import Script from "next/script";
 
 // const geistSans = Geist({
 //   variable: "--font-geist-sans",
@@ -44,8 +46,26 @@ export default function RootLayout({ children }) {
         <Navbar />
 
         {children}
+        <WhatsappButton/>
 
         <FooterSection/>
+
+
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=AW-738880229"
+          strategy="afterInteractive"
+        />
+
+        <Script id="google-ads" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'AW-738880229');
+          `}
+        </Script>
+
+
       </body>
     </html>
   );

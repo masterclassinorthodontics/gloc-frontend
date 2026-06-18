@@ -10,6 +10,12 @@ import ResinSection from "@/components/cosmetic-dentist-in-kolkata/resinsection"
 import SelectingCosmeticDentistSection from "@/components/cosmetic-dentist-in-kolkata/selectcosmetics";
 import TeethWhiteningAndDentalImplantsSection from "@/components/cosmetic-dentist-in-kolkata/Teethwhitening";
 
+export const metadata = {
+  title: "Cosmetic Dentist in Kolkata - GLOC",
+  description:
+    "Great Lakes Dental Clinic and Orthodontic Centre offers Invisalign, Dental Braces, Cosmetic Dentistry, Dental Implants and Orthodontic Treatments in Kolkata.",
+};
+
 
 export default function cosmeticdentistkolkata(){
     return(

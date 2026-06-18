@@ -9,6 +9,13 @@ import InvisalignSafetyDoctorsSection from "@/components/invisalign/Invisalignsa
 import InvisalignWhyChooseUsSection from "@/components/invisalign/Invisalignwhysection";
 import InvisalignIntroSection from "@/components/invisalign/Invisialignintrosection";
 
+
+export const metadata = {
+  title: "Invisalign Gold Provider | Best Invisalign Treatment in Kolkata - GLOC",
+  description:
+    "Great Lakes Dental Clinic and Orthodontic Centre offers Invisalign, Dental Braces, Cosmetic Dentistry, Dental Implants and Orthodontic Treatments in Kolkata.",
+};
+
 export default function Invisialign(){
     return(
         <>

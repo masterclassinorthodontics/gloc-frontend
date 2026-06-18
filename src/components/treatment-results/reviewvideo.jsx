@@ -11,7 +11,7 @@ export default function ReviewVideosSection() {
       className="relative py-20 bg-fixed bg-center bg-cover"
       style={{
         backgroundImage:
-          "url('https://lightslategray-lemur-726893.hostingersite.com/treatmentimages/bg.jpg')",
+          "url('https://lightslategray-lemur-726893.hostingersite.com/cdn-imgs/treatmentimages/bg.jpg')",
       }}
     >
       {/* Overlay */}

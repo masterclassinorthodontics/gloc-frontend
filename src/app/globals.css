@@ -63,6 +63,11 @@ body {
 
 .awards-swiper {
   position: relative;
+  overflow: visible !important;
+}
+
+.awards-swiper .swiper-wrapper {
+  overflow: visible !important;
 }
 
 .awards-swiper .swiper-button-prev,
@@ -70,16 +75,16 @@ body {
   color: #006F92 !important;
   display: flex !important;
   width: 50px !important;
-  height: 50px !important;
+  height: 30px !important;
   z-index: 10 !important;
 }
 
 .awards-swiper .swiper-button-prev {
-  left: -30px !important;
+  left: -20px !important;
 }
 
 .awards-swiper .swiper-button-next {
-  right: -30px !important;
+  right: -20px !important;
 }
 
 .awards-swiper .swiper-button-prev::after,

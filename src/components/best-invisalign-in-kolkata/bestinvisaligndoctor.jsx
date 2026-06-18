@@ -7,6 +7,10 @@ export default function BestInvisaligndoctorsection(){
 
           {/* Left Column */}
           <div>
+          <h2 className="text-2xl md:text-2xl font-semibold text-[#36384F] mb-6">
+          Well-Trained and Internationally Renowed Doctors
+          </h2>
+
             <p className="text-[#36384F] text-[15px] leading-relaxed text-justify">
                 Undoubtedly, we have the <strong>best dentist in Kolkata</strong>, but stay tuned, do not underestimate our team. Along with our doctors, our other <strong>orthodontists</strong> and the rest of the group receive the training regularly. When you approach the top <strong>clear aligner clinic in Kolkata</strong>, the risk is minimum, and the precision is optimized. The result for the same is your sparkling eye-catchy smile which enhances your facial features , thanks to <strong>invisible mouth braces</strong>.
             </p>

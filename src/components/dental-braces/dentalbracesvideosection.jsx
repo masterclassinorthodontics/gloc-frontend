@@ -19,7 +19,7 @@ export default function DentalBracesVideosSection() {
   return (
     <section className="relative bg-fixed bg-center bg-cover py-20"
     style={{
-        backgroundImage:"url('https://lightslategray-lemur-726893.hostingersite.com/treatmentimages/bg.jpg')",
+        backgroundImage:"url('https://lightslategray-lemur-726893.hostingersite.com/cdn-imgs/treatmentimages/bg.jpg')",
     }}
     >
       

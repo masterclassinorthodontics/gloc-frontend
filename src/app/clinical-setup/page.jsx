@@ -7,6 +7,13 @@ import ITeroClinicalSetupSection from "@/components/clinical-setup/Iterclinicset
 import GoogleMapSection from "@/components/home/Googlemapsection";
 import TestimonialSection from "@/components/home/testimonialsection";
 
+
+export const metadata = {
+  title: "CLINICAL SETUP - Great Lakes Dental Clinic and Orthodontic Centre",
+  description:
+    "Great Lakes Dental Clinic and Orthodontic Centre offers Invisalign, Dental Braces, Cosmetic Dentistry, Dental Implants and Orthodontic Treatments in Kolkata.",
+};
+
 export default function ClinicalSetup() {
   return (
     <>
