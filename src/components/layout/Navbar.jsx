@@ -2,6 +2,7 @@
 import { useState, useEffect } from "react";
 import { FaPhoneAlt, FaBars, FaTimes } from "react-icons/fa";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Navbar() {
 
@@ -114,6 +115,7 @@ useEffect(() => {
 
       {/* Logo */}
       <div className="flex-shrink-0 h-[70px] flex items-center justify-start">
+        <Link href='/'>
         <Image
           src="/images/common/favicon.jpg"
           alt="Great Lakes Dental Clinic"
@@ -122,6 +124,7 @@ useEffect(() => {
           priority
           className="object-contain h-[70px]"
         />
+        </Link>
       </div>
 
       {/* Desktop Navigation */}
