@@ -100,7 +100,7 @@ export default function Achieveawards() {
             spaceBetween={20}
             loop={true}
             autoplay={{
-              delay: 2500,
+              delay: 8500,
               disableOnInteraction: false,
             }}
             breakpoints={{

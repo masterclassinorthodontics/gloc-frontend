@@ -136,7 +136,17 @@ export default function BannerSection() {
 
       <li className="flex items-start">
         <span className="mr-3 text-[#00A1D4] text-xl"><FaStethoscope /></span>
-        Chief Consultant Orthodontist, Apollo Clinics, Kolkata
+        Past Consultant Orthodontist, Apollo Clinics, Kolkata
+      </li>
+
+      <li className="flex items-start">
+        <span className="mr-3 text-[#00A1D4] text-xl"><FaStethoscope /></span>
+        Visiting Professor, Sri Ramachandra Dental College and Hospital, Chennai, India
+      </li>
+
+      <li className="flex items-start">
+        <span className="mr-3 text-[#00A1D4] text-xl"><FaStethoscope /></span>
+        Adjunct Faculty, Professor, Sree Balaji Dental College and Hospital, Chennai, India
       </li>
 
       <li className="flex items-start">
