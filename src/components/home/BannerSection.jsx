@@ -41,7 +41,7 @@ export default function BannerSection() {
                 fill
                 priority
                 sizes="(max-width: 1280px) 100vw, 40vw"
-                className="object-cover"
+                className="object-contain"
               />
             </div>
           ))}
